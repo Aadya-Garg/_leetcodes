@@ -47,4 +47,20 @@
 |  |
 | ------- |
 | [2236-maximum-twin-sum-of-a-linked-list](https://github.com/Aadya-Garg/_leetcodes/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
+## Tree
+|  |
+| ------- |
+| [1544-count-good-nodes-in-binary-tree](https://github.com/Aadya-Garg/_leetcodes/tree/master/1544-count-good-nodes-in-binary-tree) |
+## Depth-First Search
+|  |
+| ------- |
+| [1544-count-good-nodes-in-binary-tree](https://github.com/Aadya-Garg/_leetcodes/tree/master/1544-count-good-nodes-in-binary-tree) |
+## Breadth-First Search
+|  |
+| ------- |
+| [1544-count-good-nodes-in-binary-tree](https://github.com/Aadya-Garg/_leetcodes/tree/master/1544-count-good-nodes-in-binary-tree) |
+## Binary Tree
+|  |
+| ------- |
+| [1544-count-good-nodes-in-binary-tree](https://github.com/Aadya-Garg/_leetcodes/tree/master/1544-count-good-nodes-in-binary-tree) |
 <!---LeetCode Topics End-->
