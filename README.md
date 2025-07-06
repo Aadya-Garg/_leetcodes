@@ -37,4 +37,8 @@
 |  |
 | ------- |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Aadya-Garg/_leetcodes/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
+## Linked List
+|  |
+| ------- |
+| [0328-odd-even-linked-list](https://github.com/Aadya-Garg/_leetcodes/tree/master/0328-odd-even-linked-list) |
 <!---LeetCode Topics End-->
