@@ -21,6 +21,7 @@
 ## Hash Table
 |  |
 | ------- |
+| [1777-determine-if-two-strings-are-close](https://github.com/Aadya-Garg/_leetcodes/tree/master/1777-determine-if-two-strings-are-close) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/Aadya-Garg/_leetcodes/tree/master/1798-max-number-of-k-sum-pairs) |
 ## Two Pointers
 |  |
@@ -30,6 +31,7 @@
 ## Sorting
 |  |
 | ------- |
+| [1777-determine-if-two-strings-are-close](https://github.com/Aadya-Garg/_leetcodes/tree/master/1777-determine-if-two-strings-are-close) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/Aadya-Garg/_leetcodes/tree/master/1798-max-number-of-k-sum-pairs) |
 ## Dynamic Programming
 |  |
@@ -68,4 +70,12 @@
 |  |
 | ------- |
 | [0162-find-peak-element](https://github.com/Aadya-Garg/_leetcodes/tree/master/0162-find-peak-element) |
+## String
+|  |
+| ------- |
+| [1777-determine-if-two-strings-are-close](https://github.com/Aadya-Garg/_leetcodes/tree/master/1777-determine-if-two-strings-are-close) |
+## Counting
+|  |
+| ------- |
+| [1777-determine-if-two-strings-are-close](https://github.com/Aadya-Garg/_leetcodes/tree/master/1777-determine-if-two-strings-are-close) |
 <!---LeetCode Topics End-->
