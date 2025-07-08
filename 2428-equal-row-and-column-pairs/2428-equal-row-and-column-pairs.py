@@ -12,6 +12,4 @@ class Solution:
         for i in grid:
             if i in transposed_matrix:
                 count += transposed_matrix.count(i)
-        print(transposed_matrix)
         return count
-        
