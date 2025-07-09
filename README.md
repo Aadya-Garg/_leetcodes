@@ -51,6 +51,7 @@
 ## Stack
 |  |
 | ------- |
+| [0394-decode-string](https://github.com/Aadya-Garg/_leetcodes/tree/master/0394-decode-string) |
 | [2236-maximum-twin-sum-of-a-linked-list](https://github.com/Aadya-Garg/_leetcodes/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
 ## Tree
 |  |
@@ -75,6 +76,7 @@
 ## String
 |  |
 | ------- |
+| [0394-decode-string](https://github.com/Aadya-Garg/_leetcodes/tree/master/0394-decode-string) |
 | [1777-determine-if-two-strings-are-close](https://github.com/Aadya-Garg/_leetcodes/tree/master/1777-determine-if-two-strings-are-close) |
 ## Counting
 |  |
@@ -88,4 +90,8 @@
 |  |
 | ------- |
 | [2428-equal-row-and-column-pairs](https://github.com/Aadya-Garg/_leetcodes/tree/master/2428-equal-row-and-column-pairs) |
+## Recursion
+|  |
+| ------- |
+| [0394-decode-string](https://github.com/Aadya-Garg/_leetcodes/tree/master/0394-decode-string) |
 <!---LeetCode Topics End-->
