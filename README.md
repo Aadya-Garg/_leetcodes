@@ -8,6 +8,7 @@
 | [0136-single-number](https://github.com/Aadya-Garg/_leetcodes/tree/master/0136-single-number) |
 | [0162-find-peak-element](https://github.com/Aadya-Garg/_leetcodes/tree/master/0162-find-peak-element) |
 | [0238-product-of-array-except-self](https://github.com/Aadya-Garg/_leetcodes/tree/master/0238-product-of-array-except-self) |
+| [0735-asteroid-collision](https://github.com/Aadya-Garg/_leetcodes/tree/master/0735-asteroid-collision) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Aadya-Garg/_leetcodes/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/Aadya-Garg/_leetcodes/tree/master/1798-max-number-of-k-sum-pairs) |
 | [2428-equal-row-and-column-pairs](https://github.com/Aadya-Garg/_leetcodes/tree/master/2428-equal-row-and-column-pairs) |
@@ -52,6 +53,7 @@
 |  |
 | ------- |
 | [0394-decode-string](https://github.com/Aadya-Garg/_leetcodes/tree/master/0394-decode-string) |
+| [0735-asteroid-collision](https://github.com/Aadya-Garg/_leetcodes/tree/master/0735-asteroid-collision) |
 | [2236-maximum-twin-sum-of-a-linked-list](https://github.com/Aadya-Garg/_leetcodes/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
 ## Tree
 |  |
@@ -89,6 +91,7 @@
 ## Simulation
 |  |
 | ------- |
+| [0735-asteroid-collision](https://github.com/Aadya-Garg/_leetcodes/tree/master/0735-asteroid-collision) |
 | [2428-equal-row-and-column-pairs](https://github.com/Aadya-Garg/_leetcodes/tree/master/2428-equal-row-and-column-pairs) |
 ## Recursion
 |  |
