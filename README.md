@@ -79,6 +79,7 @@
 |  |
 | ------- |
 | [0162-find-peak-element](https://github.com/Aadya-Garg/_leetcodes/tree/master/0162-find-peak-element) |
+| [0374-guess-number-higher-or-lower](https://github.com/Aadya-Garg/_leetcodes/tree/master/0374-guess-number-higher-or-lower) |
 ## String
 |  |
 | ------- |
@@ -102,4 +103,8 @@
 |  |
 | ------- |
 | [0394-decode-string](https://github.com/Aadya-Garg/_leetcodes/tree/master/0394-decode-string) |
+## Interactive
+|  |
+| ------- |
+| [0374-guess-number-higher-or-lower](https://github.com/Aadya-Garg/_leetcodes/tree/master/0374-guess-number-higher-or-lower) |
 <!---LeetCode Topics End-->
