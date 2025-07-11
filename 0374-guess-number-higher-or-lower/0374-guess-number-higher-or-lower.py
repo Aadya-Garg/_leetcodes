@@ -9,6 +9,8 @@ class Solution:
     def guessNumber(self, n: int) -> int:
         lower = 1
         higher = n
+        if (n == 1):
+            return 1
         while(higher >= lower):
             if (higher == lower):
                 return higher
