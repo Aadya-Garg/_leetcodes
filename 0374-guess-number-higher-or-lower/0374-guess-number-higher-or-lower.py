@@ -9,7 +9,7 @@ class Solution:
     def guessNumber(self, n: int) -> int:
         lower = 1
         higher = n
-        while(higher > lower):
+        while(higher >= lower):
             if (higher == lower):
                 return higher
             guessed = (higher + lower)//2 + 1
@@ -20,5 +20,5 @@ class Solution:
                 lower = guessed + 1 
             else:
                 higher = guessed - 1
-        return higher
+
         
