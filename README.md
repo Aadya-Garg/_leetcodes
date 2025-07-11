@@ -62,6 +62,7 @@
 ## Tree
 |  |
 | ------- |
+| [0783-search-in-a-binary-search-tree](https://github.com/Aadya-Garg/_leetcodes/tree/master/0783-search-in-a-binary-search-tree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/Aadya-Garg/_leetcodes/tree/master/1544-count-good-nodes-in-binary-tree) |
 ## Depth-First Search
 |  |
@@ -74,6 +75,7 @@
 ## Binary Tree
 |  |
 | ------- |
+| [0783-search-in-a-binary-search-tree](https://github.com/Aadya-Garg/_leetcodes/tree/master/0783-search-in-a-binary-search-tree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/Aadya-Garg/_leetcodes/tree/master/1544-count-good-nodes-in-binary-tree) |
 ## Binary Search
 |  |
@@ -107,4 +109,8 @@
 |  |
 | ------- |
 | [0374-guess-number-higher-or-lower](https://github.com/Aadya-Garg/_leetcodes/tree/master/0374-guess-number-higher-or-lower) |
+## Binary Search Tree
+|  |
+| ------- |
+| [0783-search-in-a-binary-search-tree](https://github.com/Aadya-Garg/_leetcodes/tree/master/0783-search-in-a-binary-search-tree) |
 <!---LeetCode Topics End-->
