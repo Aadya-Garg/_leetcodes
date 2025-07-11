@@ -63,10 +63,12 @@
 |  |
 | ------- |
 | [0783-search-in-a-binary-search-tree](https://github.com/Aadya-Garg/_leetcodes/tree/master/0783-search-in-a-binary-search-tree) |
+| [0904-leaf-similar-trees](https://github.com/Aadya-Garg/_leetcodes/tree/master/0904-leaf-similar-trees) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/Aadya-Garg/_leetcodes/tree/master/1544-count-good-nodes-in-binary-tree) |
 ## Depth-First Search
 |  |
 | ------- |
+| [0904-leaf-similar-trees](https://github.com/Aadya-Garg/_leetcodes/tree/master/0904-leaf-similar-trees) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/Aadya-Garg/_leetcodes/tree/master/1544-count-good-nodes-in-binary-tree) |
 ## Breadth-First Search
 |  |
@@ -76,6 +78,7 @@
 |  |
 | ------- |
 | [0783-search-in-a-binary-search-tree](https://github.com/Aadya-Garg/_leetcodes/tree/master/0783-search-in-a-binary-search-tree) |
+| [0904-leaf-similar-trees](https://github.com/Aadya-Garg/_leetcodes/tree/master/0904-leaf-similar-trees) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/Aadya-Garg/_leetcodes/tree/master/1544-count-good-nodes-in-binary-tree) |
 ## Binary Search
 |  |
