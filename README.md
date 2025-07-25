@@ -5,6 +5,7 @@
 ## Array
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/Aadya-Garg/_leetcodes/tree/master/0011-container-with-most-water) |
 | [0136-single-number](https://github.com/Aadya-Garg/_leetcodes/tree/master/0136-single-number) |
 | [0162-find-peak-element](https://github.com/Aadya-Garg/_leetcodes/tree/master/0162-find-peak-element) |
 | [0238-product-of-array-except-self](https://github.com/Aadya-Garg/_leetcodes/tree/master/0238-product-of-array-except-self) |
@@ -31,6 +32,7 @@
 ## Two Pointers
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/Aadya-Garg/_leetcodes/tree/master/0011-container-with-most-water) |
 | [0283-move-zeroes](https://github.com/Aadya-Garg/_leetcodes/tree/master/0283-move-zeroes) |
 | [0392-is-subsequence](https://github.com/Aadya-Garg/_leetcodes/tree/master/0392-is-subsequence) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/Aadya-Garg/_leetcodes/tree/master/1798-max-number-of-k-sum-pairs) |
@@ -129,4 +131,8 @@
 |  |
 | ------- |
 | [1146-greatest-common-divisor-of-strings](https://github.com/Aadya-Garg/_leetcodes/tree/master/1146-greatest-common-divisor-of-strings) |
+## Greedy
+|  |
+| ------- |
+| [0011-container-with-most-water](https://github.com/Aadya-Garg/_leetcodes/tree/master/0011-container-with-most-water) |
 <!---LeetCode Topics End-->
