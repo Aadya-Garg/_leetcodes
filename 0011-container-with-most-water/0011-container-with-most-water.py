@@ -4,11 +4,10 @@ class Solution:
         length = len(height)
         max_area = 0
         
-        for i in range(length):
+        for i in range(length-1):
             if (height[i] == 0):
                 continue
             min_base = max(1, max_area//height[i])
-            
 
             for j in range(i + min_base, length):
                 height_ = min(height[i], height[j])
