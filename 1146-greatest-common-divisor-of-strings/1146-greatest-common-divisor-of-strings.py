@@ -18,8 +18,7 @@ class Solution:
         for i in range(min_ - 1, -1, -1):
             ref = i + 1
             t = smaller[:ref]
-            if (len1 % ref != 0 or len2 % ref != 0):
-                continue
+            
             freq1 = len1 // ref
             freq2 = len2 // ref
             
