@@ -95,6 +95,7 @@
 | ------- |
 | [0392-is-subsequence](https://github.com/Aadya-Garg/_leetcodes/tree/master/0392-is-subsequence) |
 | [0394-decode-string](https://github.com/Aadya-Garg/_leetcodes/tree/master/0394-decode-string) |
+| [1146-greatest-common-divisor-of-strings](https://github.com/Aadya-Garg/_leetcodes/tree/master/1146-greatest-common-divisor-of-strings) |
 | [1777-determine-if-two-strings-are-close](https://github.com/Aadya-Garg/_leetcodes/tree/master/1777-determine-if-two-strings-are-close) |
 | [1894-merge-strings-alternately](https://github.com/Aadya-Garg/_leetcodes/tree/master/1894-merge-strings-alternately) |
 ## Counting
@@ -122,4 +123,8 @@
 |  |
 | ------- |
 | [0783-search-in-a-binary-search-tree](https://github.com/Aadya-Garg/_leetcodes/tree/master/0783-search-in-a-binary-search-tree) |
+## Math
+|  |
+| ------- |
+| [1146-greatest-common-divisor-of-strings](https://github.com/Aadya-Garg/_leetcodes/tree/master/1146-greatest-common-divisor-of-strings) |
 <!---LeetCode Topics End-->
