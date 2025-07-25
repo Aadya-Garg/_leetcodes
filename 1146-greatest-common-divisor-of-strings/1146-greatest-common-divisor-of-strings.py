@@ -2,7 +2,7 @@ class Solution:
     def gcdOfStrings(self, str1: str, str2: str) -> str:
         t = ""
         if str1 not in str2 and str2 not in str1:
-            return ""
+            return t
         
         len1 = len(str1)
         len2 = len(str2)
