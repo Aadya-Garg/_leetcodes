@@ -9,8 +9,6 @@ class Solution:
                 continue
             min_base = max(1, max_area//height[i])
             
-            if(i + min_base >= length):
-                continue
 
             for j in range(i + min_base, length):
                 height_ = min(height[i], height[j])
