@@ -15,6 +15,7 @@
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Aadya-Garg/_leetcodes/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/Aadya-Garg/_leetcodes/tree/master/1798-max-number-of-k-sum-pairs) |
 | [2428-equal-row-and-column-pairs](https://github.com/Aadya-Garg/_leetcodes/tree/master/2428-equal-row-and-column-pairs) |
+| [2636-maximum-subsequence-score](https://github.com/Aadya-Garg/_leetcodes/tree/master/2636-maximum-subsequence-score) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -45,6 +46,7 @@
 | [0215-kth-largest-element-in-an-array](https://github.com/Aadya-Garg/_leetcodes/tree/master/0215-kth-largest-element-in-an-array) |
 | [1777-determine-if-two-strings-are-close](https://github.com/Aadya-Garg/_leetcodes/tree/master/1777-determine-if-two-strings-are-close) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/Aadya-Garg/_leetcodes/tree/master/1798-max-number-of-k-sum-pairs) |
+| [2636-maximum-subsequence-score](https://github.com/Aadya-Garg/_leetcodes/tree/master/2636-maximum-subsequence-score) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -137,6 +139,7 @@
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/Aadya-Garg/_leetcodes/tree/master/0011-container-with-most-water) |
+| [2636-maximum-subsequence-score](https://github.com/Aadya-Garg/_leetcodes/tree/master/2636-maximum-subsequence-score) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -145,6 +148,7 @@
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/Aadya-Garg/_leetcodes/tree/master/0215-kth-largest-element-in-an-array) |
+| [2636-maximum-subsequence-score](https://github.com/Aadya-Garg/_leetcodes/tree/master/2636-maximum-subsequence-score) |
 ## Quickselect
 |  |
 | ------- |
