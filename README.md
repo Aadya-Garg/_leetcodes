@@ -20,6 +20,7 @@
 ## Bit Manipulation
 |  |
 | ------- |
+| [0067-add-binary](https://github.com/Aadya-Garg/_leetcodes/tree/master/0067-add-binary) |
 | [0136-single-number](https://github.com/Aadya-Garg/_leetcodes/tree/master/0136-single-number) |
 | [0338-counting-bits](https://github.com/Aadya-Garg/_leetcodes/tree/master/0338-counting-bits) |
 ## Prefix Sum
@@ -109,6 +110,7 @@
 ## String
 |  |
 | ------- |
+| [0067-add-binary](https://github.com/Aadya-Garg/_leetcodes/tree/master/0067-add-binary) |
 | [0392-is-subsequence](https://github.com/Aadya-Garg/_leetcodes/tree/master/0392-is-subsequence) |
 | [0394-decode-string](https://github.com/Aadya-Garg/_leetcodes/tree/master/0394-decode-string) |
 | [0647-palindromic-substrings](https://github.com/Aadya-Garg/_leetcodes/tree/master/0647-palindromic-substrings) |
@@ -126,6 +128,7 @@
 ## Simulation
 |  |
 | ------- |
+| [0067-add-binary](https://github.com/Aadya-Garg/_leetcodes/tree/master/0067-add-binary) |
 | [0735-asteroid-collision](https://github.com/Aadya-Garg/_leetcodes/tree/master/0735-asteroid-collision) |
 | [2428-equal-row-and-column-pairs](https://github.com/Aadya-Garg/_leetcodes/tree/master/2428-equal-row-and-column-pairs) |
 ## Recursion
@@ -143,6 +146,7 @@
 ## Math
 |  |
 | ------- |
+| [0067-add-binary](https://github.com/Aadya-Garg/_leetcodes/tree/master/0067-add-binary) |
 | [1146-greatest-common-divisor-of-strings](https://github.com/Aadya-Garg/_leetcodes/tree/master/1146-greatest-common-divisor-of-strings) |
 ## Greedy
 |  |
