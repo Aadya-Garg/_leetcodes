@@ -17,6 +17,7 @@
 | [1798-max-number-of-k-sum-pairs](https://github.com/Aadya-Garg/_leetcodes/tree/master/1798-max-number-of-k-sum-pairs) |
 | [2428-equal-row-and-column-pairs](https://github.com/Aadya-Garg/_leetcodes/tree/master/2428-equal-row-and-column-pairs) |
 | [2636-maximum-subsequence-score](https://github.com/Aadya-Garg/_leetcodes/tree/master/2636-maximum-subsequence-score) |
+| [2889-number-of-black-blocks](https://github.com/Aadya-Garg/_leetcodes/tree/master/2889-number-of-black-blocks) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -33,6 +34,7 @@
 | [1777-determine-if-two-strings-are-close](https://github.com/Aadya-Garg/_leetcodes/tree/master/1777-determine-if-two-strings-are-close) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/Aadya-Garg/_leetcodes/tree/master/1798-max-number-of-k-sum-pairs) |
 | [2428-equal-row-and-column-pairs](https://github.com/Aadya-Garg/_leetcodes/tree/master/2428-equal-row-and-column-pairs) |
+| [2889-number-of-black-blocks](https://github.com/Aadya-Garg/_leetcodes/tree/master/2889-number-of-black-blocks) |
 ## Two Pointers
 |  |
 | ------- |
@@ -170,4 +172,8 @@
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/Aadya-Garg/_leetcodes/tree/master/0215-kth-largest-element-in-an-array) |
+## Enumeration
+|  |
+| ------- |
+| [2889-number-of-black-blocks](https://github.com/Aadya-Garg/_leetcodes/tree/master/2889-number-of-black-blocks) |
 <!---LeetCode Topics End-->
