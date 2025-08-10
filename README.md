@@ -76,6 +76,7 @@
 ## Tree
 |  |
 | ------- |
+| [0098-validate-binary-search-tree](https://github.com/Aadya-Garg/_leetcodes/tree/master/0098-validate-binary-search-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/Aadya-Garg/_leetcodes/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0199-binary-tree-right-side-view](https://github.com/Aadya-Garg/_leetcodes/tree/master/0199-binary-tree-right-side-view) |
 | [0783-search-in-a-binary-search-tree](https://github.com/Aadya-Garg/_leetcodes/tree/master/0783-search-in-a-binary-search-tree) |
@@ -84,6 +85,7 @@
 ## Depth-First Search
 |  |
 | ------- |
+| [0098-validate-binary-search-tree](https://github.com/Aadya-Garg/_leetcodes/tree/master/0098-validate-binary-search-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/Aadya-Garg/_leetcodes/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0199-binary-tree-right-side-view](https://github.com/Aadya-Garg/_leetcodes/tree/master/0199-binary-tree-right-side-view) |
 | [0904-leaf-similar-trees](https://github.com/Aadya-Garg/_leetcodes/tree/master/0904-leaf-similar-trees) |
@@ -97,6 +99,7 @@
 ## Binary Tree
 |  |
 | ------- |
+| [0098-validate-binary-search-tree](https://github.com/Aadya-Garg/_leetcodes/tree/master/0098-validate-binary-search-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/Aadya-Garg/_leetcodes/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0199-binary-tree-right-side-view](https://github.com/Aadya-Garg/_leetcodes/tree/master/0199-binary-tree-right-side-view) |
 | [0783-search-in-a-binary-search-tree](https://github.com/Aadya-Garg/_leetcodes/tree/master/0783-search-in-a-binary-search-tree) |
@@ -142,6 +145,7 @@
 ## Binary Search Tree
 |  |
 | ------- |
+| [0098-validate-binary-search-tree](https://github.com/Aadya-Garg/_leetcodes/tree/master/0098-validate-binary-search-tree) |
 | [0783-search-in-a-binary-search-tree](https://github.com/Aadya-Garg/_leetcodes/tree/master/0783-search-in-a-binary-search-tree) |
 ## Math
 |  |
