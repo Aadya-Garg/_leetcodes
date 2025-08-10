@@ -5,12 +5,11 @@ class Solution:
 
         res_dict = {}
         blocks_containing = 0
-        #seen = []
+
         def modify_dict_logic(i , j, counter):
             if (i,j) in res_dict:
                 res_dict[(i,j)] += 1
             else:
-                #seen.append((i,j))
                 counter += 1
                 res_dict[(i, j)] = 1
             return counter
@@ -22,16 +21,12 @@ class Solution:
             curr_i = i < m - 1
             curr_j = j < n - 1
             if curr_i and curr_j:
-                #res_dict[(i,j)] += 1
                 blocks_containing = modify_dict_logic(i, j, blocks_containing)
             if curr_i and prev_j:
-                #res_dict[(1, j - 1)] += 1
                 blocks_containing = modify_dict_logic(i, j -1, blocks_containing)
             if prev_i and curr_j:
-                #res_dict[(i - 1,j)] += 1
                 blocks_containing = modify_dict_logic(i-1, j, blocks_containing)
             if prev_i and prev_j:
-                #res_dict[(i-1,j-1)] += 1
                 blocks_containing = modify_dict_logic(i-1,j-1, blocks_containing)
         
         for r in res_dict:
