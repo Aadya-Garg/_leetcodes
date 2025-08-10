@@ -24,7 +24,9 @@ class Solution:
             v = node.val
             left = node.left
             right = node.right
-            print(v, left_interval, right_interval)
+            if not left and not right:
+                continue
+
             """
             if (left and left.val >= v) or (right and right.val <= v):
                 return False
