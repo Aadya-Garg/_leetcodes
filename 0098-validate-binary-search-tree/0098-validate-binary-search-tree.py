@@ -27,30 +27,16 @@ class Solution:
             if not left and not right:
                 continue
 
-            """
-            if (left and left.val >= v) or (right and right.val <= v):
-                return False
-
-            if v < prev_val and prev_val <= vr and right and (right.val >= vr or right.val >= prev_val):
-                return False
-            
-            if v > prev_val and prev_val >= vr and left and (left.val <= vr or left.val <= prev_val):
-                return False
-            """
             if left and (left_interval == [] or left.val < left_interval[0] or left.val > left_interval[1]):
                 return False
             if right and (right_interval == [] or right.val < right_interval[0] or right.val > right_interval[1]):
                 return False
 
-            #if (left and (left.val < left_interval[0] or left.val > left_interval[1])) or (right and (right.val < right_interval[0] or right.val > right_interval[1])):
-            #    return False
-
             if right:
-                #l = [left_interval[1], right.val - 1]
                 l = [right_interval[0], right.val - 1]
                 if l[0] > l[1]:
                     l = []
-                #r = [right.val + 1, left_interval[1]]
+               
                 r = [right.val + 1, right_interval[1]]
                 if r[0] > r[1]:
                     r = []
@@ -64,12 +50,4 @@ class Solution:
                 if r[0] > r[1]:
                     r = []
                 stack.append([left, l, r])
-            
-            """
-            if right:
-                stack.append([right, v])
-            
-            if left:
-                stack.append([left, v])
-            """
         return True
