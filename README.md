@@ -59,6 +59,7 @@
 | [0338-counting-bits](https://github.com/Aadya-Garg/_leetcodes/tree/master/0338-counting-bits) |
 | [0392-is-subsequence](https://github.com/Aadya-Garg/_leetcodes/tree/master/0392-is-subsequence) |
 | [0647-palindromic-substrings](https://github.com/Aadya-Garg/_leetcodes/tree/master/0647-palindromic-substrings) |
+| [1236-n-th-tribonacci-number](https://github.com/Aadya-Garg/_leetcodes/tree/master/1236-n-th-tribonacci-number) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Aadya-Garg/_leetcodes/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 ## Sliding Window
 |  |
@@ -154,6 +155,7 @@
 | ------- |
 | [0067-add-binary](https://github.com/Aadya-Garg/_leetcodes/tree/master/0067-add-binary) |
 | [1146-greatest-common-divisor-of-strings](https://github.com/Aadya-Garg/_leetcodes/tree/master/1146-greatest-common-divisor-of-strings) |
+| [1236-n-th-tribonacci-number](https://github.com/Aadya-Garg/_leetcodes/tree/master/1236-n-th-tribonacci-number) |
 ## Greedy
 |  |
 | ------- |
@@ -176,4 +178,8 @@
 |  |
 | ------- |
 | [2889-number-of-black-blocks](https://github.com/Aadya-Garg/_leetcodes/tree/master/2889-number-of-black-blocks) |
+## Memoization
+|  |
+| ------- |
+| [1236-n-th-tribonacci-number](https://github.com/Aadya-Garg/_leetcodes/tree/master/1236-n-th-tribonacci-number) |
 <!---LeetCode Topics End-->
