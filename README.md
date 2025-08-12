@@ -9,6 +9,7 @@
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Aadya-Garg/_leetcodes/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0136-single-number](https://github.com/Aadya-Garg/_leetcodes/tree/master/0136-single-number) |
 | [0162-find-peak-element](https://github.com/Aadya-Garg/_leetcodes/tree/master/0162-find-peak-element) |
+| [0198-house-robber](https://github.com/Aadya-Garg/_leetcodes/tree/master/0198-house-robber) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Aadya-Garg/_leetcodes/tree/master/0215-kth-largest-element-in-an-array) |
 | [0238-product-of-array-except-self](https://github.com/Aadya-Garg/_leetcodes/tree/master/0238-product-of-array-except-self) |
 | [0283-move-zeroes](https://github.com/Aadya-Garg/_leetcodes/tree/master/0283-move-zeroes) |
@@ -57,6 +58,7 @@
 |  |
 | ------- |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Aadya-Garg/_leetcodes/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0198-house-robber](https://github.com/Aadya-Garg/_leetcodes/tree/master/0198-house-robber) |
 | [0338-counting-bits](https://github.com/Aadya-Garg/_leetcodes/tree/master/0338-counting-bits) |
 | [0392-is-subsequence](https://github.com/Aadya-Garg/_leetcodes/tree/master/0392-is-subsequence) |
 | [0647-palindromic-substrings](https://github.com/Aadya-Garg/_leetcodes/tree/master/0647-palindromic-substrings) |
