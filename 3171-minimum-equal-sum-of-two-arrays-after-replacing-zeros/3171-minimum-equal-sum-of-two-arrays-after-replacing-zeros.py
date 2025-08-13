@@ -5,8 +5,8 @@ class Solution:
         curr2 = sum(nums2)
         zer1 = nums1.count(0)
         zer2 = nums2.count(0)
-        min1 = curr1 + 1*zer1
-        min2 = curr2 + 1*zer2
+        min1 = curr1 + zer1
+        min2 = curr2 + zer2
         print(curr1, curr2)
         print(min1, min2)
         print(zer1, zer2)
