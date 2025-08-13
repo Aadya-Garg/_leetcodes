@@ -6,26 +6,26 @@ class Solution:
             points[1]
         except:
             return 1
-        prev = sorted_intervals[0]
+        prev_j = sorted_intervals[0][1]
         res = 1
         point = None
        
         for i,j in sorted_intervals[1:]:
 
-            if i <= prev[1] and point is None:
-                #res += 1
-                point = min(prev[1], j)
-            elif i <= prev[1] and point >= j: #imples point not none
-                #res += 1
+            if i <= prev_j and point is None:
+                point = min(prev_j, j)
+
+            elif i <= prev_j and point >= j: #imples point not none
                 point = j
+
             elif point is not None and i <= point:
-                prev = [i,j]
+                prev_j = j
                 continue
-                #res += 1
+
             else:
                 res += 1
                 point = None
-            prev = [i,j]
+            prev_j = j
         return res
 
             
