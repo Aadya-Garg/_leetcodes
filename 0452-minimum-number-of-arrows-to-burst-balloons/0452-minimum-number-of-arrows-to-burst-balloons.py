@@ -9,9 +9,9 @@ class Solution:
         prev = sorted_intervals[0]
         res = 1
         point = None
-        #print(sorted_intervals)
+       
         for i,j in sorted_intervals[1:]:
-           # print(f"int: {i,j}, point: {point}, prev = {prev}, res = {res}")
+
             if i <= prev[1] and point is None:
                 #res += 1
                 point = min(prev[1], j)
@@ -19,7 +19,8 @@ class Solution:
                 #res += 1
                 point = j
             elif point is not None and i <= point:
-                res = res
+                prev = [i,j]
+                continue
                 #res += 1
             else:
                 res += 1
