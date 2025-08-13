@@ -12,7 +12,7 @@ class Solution:
         con = sorted_intervals[1:]
         for i,j in con:
 
-            if i <= prev_j and point >= i: #imples point not none
+            if i <= prev_j and point >= i:
                 point = min(point, j)
             
             else:
