@@ -11,10 +11,10 @@ class Solution:
         if min1 == min2:
             return min1
 
-        if min2 > min1 and zer1 > 0:
+        if zer1 > 0 and min2 > min1:
             return min2
 
-        if min1 > min2 and zer2 > 0:
+        if zer2 > 0 and min1 > min2:
             return min1
         
         return -1
