@@ -21,6 +21,7 @@
 | [2428-equal-row-and-column-pairs](https://github.com/Aadya-Garg/_leetcodes/tree/master/2428-equal-row-and-column-pairs) |
 | [2636-maximum-subsequence-score](https://github.com/Aadya-Garg/_leetcodes/tree/master/2636-maximum-subsequence-score) |
 | [2889-number-of-black-blocks](https://github.com/Aadya-Garg/_leetcodes/tree/master/2889-number-of-black-blocks) |
+| [3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros](https://github.com/Aadya-Garg/_leetcodes/tree/master/3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -168,6 +169,7 @@
 | ------- |
 | [0011-container-with-most-water](https://github.com/Aadya-Garg/_leetcodes/tree/master/0011-container-with-most-water) |
 | [2636-maximum-subsequence-score](https://github.com/Aadya-Garg/_leetcodes/tree/master/2636-maximum-subsequence-score) |
+| [3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros](https://github.com/Aadya-Garg/_leetcodes/tree/master/3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros) |
 ## Divide and Conquer
 |  |
 | ------- |
