@@ -9,8 +9,8 @@ class Solution:
         prev_j = sorted_intervals[0][1]
         res = 1
         point = prev_j
-       
-        for i,j in sorted_intervals[1:]:
+        con = sorted_intervals[1:]
+        for i,j in con:
 
             if i <= prev_j and point >= i: #imples point not none
                 point = min(point, j)
