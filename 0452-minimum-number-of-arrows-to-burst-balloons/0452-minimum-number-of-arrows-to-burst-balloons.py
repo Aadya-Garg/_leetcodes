@@ -2,7 +2,7 @@ class Solution:
     def findMinArrowShots(self, points: List[List[int]]) -> int:
         #number of overlapping intervals.
         points.sort(key = lambda x: x[1])
-        print(points)
+
         """
         try: 
             points[1]
