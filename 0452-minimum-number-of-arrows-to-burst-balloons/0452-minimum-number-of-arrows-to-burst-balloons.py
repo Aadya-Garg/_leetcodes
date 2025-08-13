@@ -11,7 +11,7 @@ class Solution:
         point = None
        
         for i,j in sorted_intervals[1:]:
-            print(f"prev: {prev_j}, point: {point}, interval: {i,j}, res = {res}")
+          
             if i <= prev_j and point is None:
                 point = min(prev_j, j)
 
