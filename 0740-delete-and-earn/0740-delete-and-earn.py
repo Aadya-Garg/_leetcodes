@@ -6,9 +6,6 @@ class Solution:
         dict_ = {key: 0 for key in set_}
         for i in nums:
             dict_[i] += 1
-        print(dict_)
-        ind = 0
-        res = 0
         """
         def maxprice(n):
             if n < 0:
@@ -38,29 +35,4 @@ class Solution:
             
             prev = curr
         return max_prices[-1]
-        """
-        for i in set_:
-            
-        while ind < len_:
-            curr = set_[ind]
-            freq = dict_[curr]
-            res += curr * freq
-            print(f"addedd to res: {curr, freq}")
-            if ind < len_ - 1 and set_[ind+1] == curr - 1:
-                prev_ = set_[ind+1]
-                if dict_[prev_] <= freq:
-                    ind += 2
-                else:
-                    if (ind + 2 < len_ and set_[ind+2] == curr - 2):
-                        if res + (set_[ind+2] * dict_[set_[ind+2]]) > prev_ * dict_[prev_]:
-                            ind += 2 #check this
-                            continue
-                    
-                    res -= curr * freq
-                    ind += 1
-                    #res -= curr * freq
-                    print(f"removed from res: {curr, freq}")
-            else:
-                ind += 1
-        return res
-        """
+       
