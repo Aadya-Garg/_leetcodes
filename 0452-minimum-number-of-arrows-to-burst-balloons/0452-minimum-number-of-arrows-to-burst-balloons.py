@@ -11,17 +11,10 @@ class Solution:
         point = prev_j
        
         for i,j in sorted_intervals[1:]:
-          
-            #if i <= prev_j and point is None:
-            #    point = min(prev_j, j)
 
             if i <= prev_j and point >= i: #imples point not none
                 point = min(point, j)
-
-            #elif point is not None and i <= point:
-             #   prev_j = j
-            #    continue
-
+            
             else:
                 res += 1
                 point = j
