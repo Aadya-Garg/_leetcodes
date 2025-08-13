@@ -1,5 +1,6 @@
 class Solution:
     def maximumTotalDamage(self, power: List[int]) -> int:
+       
         set_ = set(power)
         set_ = sorted(set_)
         dict_ = {key: 0 for key in set_}
