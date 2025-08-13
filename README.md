@@ -23,6 +23,7 @@
 | [2636-maximum-subsequence-score](https://github.com/Aadya-Garg/_leetcodes/tree/master/2636-maximum-subsequence-score) |
 | [2889-number-of-black-blocks](https://github.com/Aadya-Garg/_leetcodes/tree/master/2889-number-of-black-blocks) |
 | [3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros](https://github.com/Aadya-Garg/_leetcodes/tree/master/3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros) |
+| [3437-maximum-total-damage-with-spell-casting](https://github.com/Aadya-Garg/_leetcodes/tree/master/3437-maximum-total-damage-with-spell-casting) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -41,6 +42,7 @@
 | [1798-max-number-of-k-sum-pairs](https://github.com/Aadya-Garg/_leetcodes/tree/master/1798-max-number-of-k-sum-pairs) |
 | [2428-equal-row-and-column-pairs](https://github.com/Aadya-Garg/_leetcodes/tree/master/2428-equal-row-and-column-pairs) |
 | [2889-number-of-black-blocks](https://github.com/Aadya-Garg/_leetcodes/tree/master/2889-number-of-black-blocks) |
+| [3437-maximum-total-damage-with-spell-casting](https://github.com/Aadya-Garg/_leetcodes/tree/master/3437-maximum-total-damage-with-spell-casting) |
 ## Two Pointers
 |  |
 | ------- |
@@ -51,6 +53,7 @@
 | [1798-max-number-of-k-sum-pairs](https://github.com/Aadya-Garg/_leetcodes/tree/master/1798-max-number-of-k-sum-pairs) |
 | [1894-merge-strings-alternately](https://github.com/Aadya-Garg/_leetcodes/tree/master/1894-merge-strings-alternately) |
 | [2236-maximum-twin-sum-of-a-linked-list](https://github.com/Aadya-Garg/_leetcodes/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
+| [3437-maximum-total-damage-with-spell-casting](https://github.com/Aadya-Garg/_leetcodes/tree/master/3437-maximum-total-damage-with-spell-casting) |
 ## Sorting
 |  |
 | ------- |
@@ -59,6 +62,7 @@
 | [1777-determine-if-two-strings-are-close](https://github.com/Aadya-Garg/_leetcodes/tree/master/1777-determine-if-two-strings-are-close) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/Aadya-Garg/_leetcodes/tree/master/1798-max-number-of-k-sum-pairs) |
 | [2636-maximum-subsequence-score](https://github.com/Aadya-Garg/_leetcodes/tree/master/2636-maximum-subsequence-score) |
+| [3437-maximum-total-damage-with-spell-casting](https://github.com/Aadya-Garg/_leetcodes/tree/master/3437-maximum-total-damage-with-spell-casting) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -71,6 +75,7 @@
 | [0747-min-cost-climbing-stairs](https://github.com/Aadya-Garg/_leetcodes/tree/master/0747-min-cost-climbing-stairs) |
 | [1236-n-th-tribonacci-number](https://github.com/Aadya-Garg/_leetcodes/tree/master/1236-n-th-tribonacci-number) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Aadya-Garg/_leetcodes/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
+| [3437-maximum-total-damage-with-spell-casting](https://github.com/Aadya-Garg/_leetcodes/tree/master/3437-maximum-total-damage-with-spell-casting) |
 ## Sliding Window
 |  |
 | ------- |
@@ -123,6 +128,7 @@
 | ------- |
 | [0162-find-peak-element](https://github.com/Aadya-Garg/_leetcodes/tree/master/0162-find-peak-element) |
 | [0374-guess-number-higher-or-lower](https://github.com/Aadya-Garg/_leetcodes/tree/master/0374-guess-number-higher-or-lower) |
+| [3437-maximum-total-damage-with-spell-casting](https://github.com/Aadya-Garg/_leetcodes/tree/master/3437-maximum-total-damage-with-spell-casting) |
 ## String
 |  |
 | ------- |
@@ -137,6 +143,7 @@
 |  |
 | ------- |
 | [1777-determine-if-two-strings-are-close](https://github.com/Aadya-Garg/_leetcodes/tree/master/1777-determine-if-two-strings-are-close) |
+| [3437-maximum-total-damage-with-spell-casting](https://github.com/Aadya-Garg/_leetcodes/tree/master/3437-maximum-total-damage-with-spell-casting) |
 ## Matrix
 |  |
 | ------- |
