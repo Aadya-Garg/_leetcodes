@@ -5,12 +5,16 @@ class Solution:
         curr2 = sum(nums2)
         zer1 = nums1.count(0)
         zer2 = nums2.count(0)
+
+        if zer1 == 0 and zer2 == 0:
+            return curr1 if curr1 == curr2 else -1
+
         min1 = curr1 + zer1
         min2 = curr2 + zer2
-       
+        
         if min1 == min2:
             return min1
-
+        
         if zer1 > 0 and min2 > min1:
             return min2
 
@@ -18,3 +22,4 @@ class Solution:
             return min1
         
         return -1
+        
