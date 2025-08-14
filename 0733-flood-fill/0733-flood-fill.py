@@ -5,6 +5,7 @@ class Solution:
             return image
         nrows = len(image)
         ncols = len(image[0])
+        done = []
         #update start at the end
         def fill(i,j):
             curr = image[i][j]
@@ -13,13 +14,14 @@ class Solution:
             if curr == start:
                 #print(curr)
                 image[i][j] = color
-                if i > 0:
+                done.append([i,j])
+                if i > 0 and [i-1,j] not in done:
                     fill(i-1, j)
-                if j > 0:
+                if j > 0 and [i,j-1] not in done:
                     fill(i, j-1)
-                if j < ncols - 1:
+                if j < ncols - 1 and [i,j+1] not in done:
                     fill(i, j+1)
-                if i < nrows - 1:
+                if i < nrows - 1 and [i+1,j] not in done:
                     fill(i + 1, j)
         fill(sr, sc)
         
