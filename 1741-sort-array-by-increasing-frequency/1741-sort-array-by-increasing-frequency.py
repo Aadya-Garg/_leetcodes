@@ -6,11 +6,12 @@ class Solution:
         for i in nums:
             dict_[i] += 1
             
-        dict_ = [[key, val] for val, key in dict_.items()]
-        dict_.sort(key = lambda x: (x[0], -x[1]))
+        dict_ = [[key, val] for key, val in dict_.items()]
+        dict_.sort(key = lambda x: (x[1], -x[0]))
+        
         res = []
         for i,j in dict_:
-            res.extend([j]*i)
+            res.extend([i]*j)
         return res
 
 
