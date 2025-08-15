@@ -6,7 +6,7 @@ class Solution:
             return max(vals)
 
         len_ = len(vals)
-        #print(edges)
+ 
         dict_ = {key:[] for key in range(len_)}
         for i,j in edges:
             dict_[i].append(vals[j])
@@ -22,20 +22,11 @@ class Solution:
                 if curr <= 0:
                     continue
                 max_sum += curr
-            """
-            for i in range(k):
-                if not list_:
-                    break
-                curr = heapq._heappop_max(list_)
-                if curr <= 0:
-                    continue
-                max_sum += curr
-            """
             return max_sum
         res = -10000
         for i in range(len_):
             list_ = dict_[i]
-            res = max(res, vals[i], vals[i] + max_fornode(list_))
+            res = max(res, vals[i] + max_fornode(list_))
         return res
             
         
