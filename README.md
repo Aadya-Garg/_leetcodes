@@ -22,6 +22,7 @@
 | [1741-sort-array-by-increasing-frequency](https://github.com/Aadya-Garg/_leetcodes/tree/master/1741-sort-array-by-increasing-frequency) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/Aadya-Garg/_leetcodes/tree/master/1798-max-number-of-k-sum-pairs) |
 | [2428-equal-row-and-column-pairs](https://github.com/Aadya-Garg/_leetcodes/tree/master/2428-equal-row-and-column-pairs) |
+| [2590-maximum-star-sum-of-a-graph](https://github.com/Aadya-Garg/_leetcodes/tree/master/2590-maximum-star-sum-of-a-graph) |
 | [2636-maximum-subsequence-score](https://github.com/Aadya-Garg/_leetcodes/tree/master/2636-maximum-subsequence-score) |
 | [2889-number-of-black-blocks](https://github.com/Aadya-Garg/_leetcodes/tree/master/2889-number-of-black-blocks) |
 | [3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros](https://github.com/Aadya-Garg/_leetcodes/tree/master/3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros) |
@@ -65,6 +66,7 @@
 | [1741-sort-array-by-increasing-frequency](https://github.com/Aadya-Garg/_leetcodes/tree/master/1741-sort-array-by-increasing-frequency) |
 | [1777-determine-if-two-strings-are-close](https://github.com/Aadya-Garg/_leetcodes/tree/master/1777-determine-if-two-strings-are-close) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/Aadya-Garg/_leetcodes/tree/master/1798-max-number-of-k-sum-pairs) |
+| [2590-maximum-star-sum-of-a-graph](https://github.com/Aadya-Garg/_leetcodes/tree/master/2590-maximum-star-sum-of-a-graph) |
 | [2636-maximum-subsequence-score](https://github.com/Aadya-Garg/_leetcodes/tree/master/2636-maximum-subsequence-score) |
 | [3437-maximum-total-damage-with-spell-casting](https://github.com/Aadya-Garg/_leetcodes/tree/master/3437-maximum-total-damage-with-spell-casting) |
 ## Dynamic Programming
@@ -185,6 +187,7 @@
 | ------- |
 | [0011-container-with-most-water](https://github.com/Aadya-Garg/_leetcodes/tree/master/0011-container-with-most-water) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/Aadya-Garg/_leetcodes/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
+| [2590-maximum-star-sum-of-a-graph](https://github.com/Aadya-Garg/_leetcodes/tree/master/2590-maximum-star-sum-of-a-graph) |
 | [2636-maximum-subsequence-score](https://github.com/Aadya-Garg/_leetcodes/tree/master/2636-maximum-subsequence-score) |
 | [3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros](https://github.com/Aadya-Garg/_leetcodes/tree/master/3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros) |
 ## Divide and Conquer
@@ -195,6 +198,7 @@
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/Aadya-Garg/_leetcodes/tree/master/0215-kth-largest-element-in-an-array) |
+| [2590-maximum-star-sum-of-a-graph](https://github.com/Aadya-Garg/_leetcodes/tree/master/2590-maximum-star-sum-of-a-graph) |
 | [2636-maximum-subsequence-score](https://github.com/Aadya-Garg/_leetcodes/tree/master/2636-maximum-subsequence-score) |
 ## Quickselect
 |  |
@@ -208,4 +212,8 @@
 |  |
 | ------- |
 | [1236-n-th-tribonacci-number](https://github.com/Aadya-Garg/_leetcodes/tree/master/1236-n-th-tribonacci-number) |
+## Graph
+|  |
+| ------- |
+| [2590-maximum-star-sum-of-a-graph](https://github.com/Aadya-Garg/_leetcodes/tree/master/2590-maximum-star-sum-of-a-graph) |
 <!---LeetCode Topics End-->
