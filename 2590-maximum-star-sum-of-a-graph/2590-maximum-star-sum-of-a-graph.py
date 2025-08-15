@@ -9,11 +9,8 @@ class Solution:
         #print(edges)
         dict_ = {key:[] for key in range(len_)}
         for i,j in edges:
-            dict_[i].append(j)
-            dict_[j].append(i)
-              
-        print(dict_)
-        new_dict = dict()
+            dict_[i].append(vals[j])
+            dict_[j].append(vals[i])
 
         def max_fornode(list_):
             max_sum = 0
@@ -27,7 +24,7 @@ class Solution:
             return max_sum
         res = -10000
         for i in dict_:
-            list_ = [vals[j] for j in dict_[i]]
+            list_ = dict_[i]
             res = max(res, vals[i], vals[i] + max_fornode(list_))
         return res
             
