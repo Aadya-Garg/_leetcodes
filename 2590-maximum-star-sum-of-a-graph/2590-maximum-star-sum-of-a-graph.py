@@ -13,8 +13,16 @@ class Solution:
             dict_[j].append(vals[i])
 
         def max_fornode(list_):
+            temp_k = k
             max_sum = 0
             heapq._heapify_max(list_)
+            while list_ and temp_k > 0:
+                temp_k -= 1
+                curr = heapq._heappop_max(list_)
+                if curr <= 0:
+                    continue
+                max_sum += curr
+            """
             for i in range(k):
                 if not list_:
                     break
@@ -22,6 +30,7 @@ class Solution:
                 if curr <= 0:
                     continue
                 max_sum += curr
+            """
             return max_sum
         res = -10000
         for i in range(len_):
