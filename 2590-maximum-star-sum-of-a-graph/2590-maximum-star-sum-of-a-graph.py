@@ -12,19 +12,21 @@ class Solution:
             dict_[i].append(vals[j])
             dict_[j].append(vals[i])
 
-        def max_fornode(list_,k):
+        def max_fornode(list_):
+            temp_k = k
             max_sum = 0
             heapq._heapify_max(list_)
-            while list_ and k > 0:
-                k -= 1
+            while list_ and temp_k > 0:
+                temp_k -= 1
                 curr = heapq._heappop_max(list_)
-                if curr > 0:
-                    max_sum += curr
+                if curr <= 0:
+                    continue
+                max_sum += curr
             return max_sum
         res = -10000
         for i in range(len_):
             list_ = dict_[i]
-            res = max(res, vals[i] + max_fornode(list_, k))
+            res = max(res, vals[i] + max_fornode(list_))
         return res
             
         
