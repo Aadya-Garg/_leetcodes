@@ -4,7 +4,7 @@ class Solution:
         #should have common vertex
         if k == 0 or edges == []:
             return max(vals)
-        edges.sort()
+
         len_ = len(vals)
         #print(edges)
         dict_ = {key:[] for key in range(len_)}
