@@ -18,9 +18,8 @@ class Solution:
             while list_ and k > 0:
                 k -= 1
                 curr = heapq._heappop_max(list_)
-                if curr <= 0:
-                    continue
-                max_sum += curr
+                if curr > 0:
+                    max_sum += curr
             return max_sum
         res = -10000
         for i in range(len_):
