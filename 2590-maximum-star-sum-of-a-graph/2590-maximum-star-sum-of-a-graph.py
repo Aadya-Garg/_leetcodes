@@ -14,12 +14,11 @@ class Solution:
 
         def max_fornode(list_):
             max_sum = 0
-            heap = list_
-            heapq._heapify_max(heap)
+            heapq._heapify_max(list_)
             for i in range(k):
-                if not heap:
+                if not list_:
                     break
-                curr = heapq._heappop_max(heap)
+                curr = heapq._heappop_max(list_)
                 max_sum = max(max_sum, max_sum + curr)
             return max_sum
         res = -10000
