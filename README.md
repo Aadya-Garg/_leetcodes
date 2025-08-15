@@ -52,6 +52,7 @@
 | ------- |
 | [0011-container-with-most-water](https://github.com/Aadya-Garg/_leetcodes/tree/master/0011-container-with-most-water) |
 | [0283-move-zeroes](https://github.com/Aadya-Garg/_leetcodes/tree/master/0283-move-zeroes) |
+| [0345-reverse-vowels-of-a-string](https://github.com/Aadya-Garg/_leetcodes/tree/master/0345-reverse-vowels-of-a-string) |
 | [0392-is-subsequence](https://github.com/Aadya-Garg/_leetcodes/tree/master/0392-is-subsequence) |
 | [0647-palindromic-substrings](https://github.com/Aadya-Garg/_leetcodes/tree/master/0647-palindromic-substrings) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/Aadya-Garg/_leetcodes/tree/master/1798-max-number-of-k-sum-pairs) |
@@ -141,6 +142,7 @@
 |  |
 | ------- |
 | [0067-add-binary](https://github.com/Aadya-Garg/_leetcodes/tree/master/0067-add-binary) |
+| [0345-reverse-vowels-of-a-string](https://github.com/Aadya-Garg/_leetcodes/tree/master/0345-reverse-vowels-of-a-string) |
 | [0392-is-subsequence](https://github.com/Aadya-Garg/_leetcodes/tree/master/0392-is-subsequence) |
 | [0394-decode-string](https://github.com/Aadya-Garg/_leetcodes/tree/master/0394-decode-string) |
 | [0647-palindromic-substrings](https://github.com/Aadya-Garg/_leetcodes/tree/master/0647-palindromic-substrings) |
