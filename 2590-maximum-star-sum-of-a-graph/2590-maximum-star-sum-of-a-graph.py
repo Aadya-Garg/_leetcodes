@@ -19,7 +19,9 @@ class Solution:
                 if not list_:
                     break
                 curr = heapq._heappop_max(list_)
-                max_sum = max(max_sum, max_sum + curr)
+                if curr <= 0:
+                    continue
+                max_sum += curr
             return max_sum
         res = -10000
         for i in range(len_):
