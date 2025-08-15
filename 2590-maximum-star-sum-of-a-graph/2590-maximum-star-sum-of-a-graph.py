@@ -22,7 +22,7 @@ class Solution:
                 max_sum = max(max_sum, max_sum + curr)
             return max_sum
         res = -10000
-        for i in dict_:
+        for i in range(len_):
             list_ = dict_[i]
             res = max(res, vals[i], vals[i] + max_fornode(list_))
         return res
