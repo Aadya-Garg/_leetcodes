@@ -220,4 +220,16 @@
 |  |
 | ------- |
 | [2590-maximum-star-sum-of-a-graph](https://github.com/Aadya-Garg/_leetcodes/tree/master/2590-maximum-star-sum-of-a-graph) |
+## Design
+|  |
+| ------- |
+| [0969-number-of-recent-calls](https://github.com/Aadya-Garg/_leetcodes/tree/master/0969-number-of-recent-calls) |
+## Queue
+|  |
+| ------- |
+| [0969-number-of-recent-calls](https://github.com/Aadya-Garg/_leetcodes/tree/master/0969-number-of-recent-calls) |
+## Data Stream
+|  |
+| ------- |
+| [0969-number-of-recent-calls](https://github.com/Aadya-Garg/_leetcodes/tree/master/0969-number-of-recent-calls) |
 <!---LeetCode Topics End-->
