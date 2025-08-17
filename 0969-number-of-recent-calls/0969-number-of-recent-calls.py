@@ -1,12 +1,10 @@
 class RecentCounter:
 
     def __init__(self):
-        self.request_counter = 0
         self.requests = deque()
 
 
     def ping(self, t: int) -> int:
-        self.request_counter += 1
         self.requests.append(t)
         
         #range is [t - 3000, t]
