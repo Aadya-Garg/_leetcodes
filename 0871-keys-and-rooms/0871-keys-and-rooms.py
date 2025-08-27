@@ -10,7 +10,7 @@ class Solution:
             for i in available_keys:
                 if i not in visited:
                     visited.append(i)
-                    if len(visited) == length:
-                        return True
+                    #if len(visited) == length:
+                     #   return True
                     stack.append(rooms[i])
-        return False #len(visited) == length
+        return len(visited) == length
