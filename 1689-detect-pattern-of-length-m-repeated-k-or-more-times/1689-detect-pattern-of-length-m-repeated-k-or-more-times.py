@@ -6,7 +6,8 @@ class Solution:
         while left <= len_ - k*m:
             for i in range(k - 1):
                 for j in range(m):
-                    if arr[left + i*m + j] != arr[left + j + i*m + m]:
+                    val = left + i*m + j
+                    if arr[val] != arr[val + m]:
                         done = False
                         break
                 if done == False:
