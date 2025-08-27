@@ -13,8 +13,9 @@ class Solution:
             for i in available_keys:
                 if visited[i] == False:
                     seen += 1
+                    if seen == length:
+                        return True
                     visited[i] = True
                     stack.append(i)
-                if seen == length:
-                    return True
+                
         return False
