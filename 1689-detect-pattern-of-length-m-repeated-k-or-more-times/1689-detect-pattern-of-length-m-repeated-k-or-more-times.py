@@ -3,7 +3,13 @@ class Solution:
         left = 0
         len_ = len(arr)
         done = True
-        while left <= len_ - k*m:
+        for left in range(len_ - k*m + 1):
+            for i in range(m* (k - 1)):
+                val = left + i
+                if arr[val] != arr[val + m]:
+                    done = False
+                    break
+            """
             for i in range(k - 1):
                 for j in range(m):
                     val = left + i*m + j
@@ -12,10 +18,10 @@ class Solution:
                         break
                 if done == False:
                     break
+            """
             if done:
                 return True
             done = True
-            left += 1
         return False
 
             
