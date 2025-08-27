@@ -20,6 +20,7 @@
 | [0740-delete-and-earn](https://github.com/Aadya-Garg/_leetcodes/tree/master/0740-delete-and-earn) |
 | [0747-min-cost-climbing-stairs](https://github.com/Aadya-Garg/_leetcodes/tree/master/0747-min-cost-climbing-stairs) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Aadya-Garg/_leetcodes/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
+| [1689-detect-pattern-of-length-m-repeated-k-or-more-times](https://github.com/Aadya-Garg/_leetcodes/tree/master/1689-detect-pattern-of-length-m-repeated-k-or-more-times) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/Aadya-Garg/_leetcodes/tree/master/1741-sort-array-by-increasing-frequency) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/Aadya-Garg/_leetcodes/tree/master/1798-max-number-of-k-sum-pairs) |
 | [2428-equal-row-and-column-pairs](https://github.com/Aadya-Garg/_leetcodes/tree/master/2428-equal-row-and-column-pairs) |
@@ -211,6 +212,7 @@
 ## Enumeration
 |  |
 | ------- |
+| [1689-detect-pattern-of-length-m-repeated-k-or-more-times](https://github.com/Aadya-Garg/_leetcodes/tree/master/1689-detect-pattern-of-length-m-repeated-k-or-more-times) |
 | [2889-number-of-black-blocks](https://github.com/Aadya-Garg/_leetcodes/tree/master/2889-number-of-black-blocks) |
 ## Memoization
 |  |
