@@ -13,4 +13,4 @@ class Solution:
                     if len(visited) == length:
                         return True
                     stack.append(rooms[i])
-        return len(visited) == length
+        return False #len(visited) == length
