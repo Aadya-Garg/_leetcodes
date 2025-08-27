@@ -116,6 +116,7 @@
 | [0104-maximum-depth-of-binary-tree](https://github.com/Aadya-Garg/_leetcodes/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0199-binary-tree-right-side-view](https://github.com/Aadya-Garg/_leetcodes/tree/master/0199-binary-tree-right-side-view) |
 | [0733-flood-fill](https://github.com/Aadya-Garg/_leetcodes/tree/master/0733-flood-fill) |
+| [0871-keys-and-rooms](https://github.com/Aadya-Garg/_leetcodes/tree/master/0871-keys-and-rooms) |
 | [0904-leaf-similar-trees](https://github.com/Aadya-Garg/_leetcodes/tree/master/0904-leaf-similar-trees) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/Aadya-Garg/_leetcodes/tree/master/1544-count-good-nodes-in-binary-tree) |
 ## Breadth-First Search
@@ -124,6 +125,7 @@
 | [0104-maximum-depth-of-binary-tree](https://github.com/Aadya-Garg/_leetcodes/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0199-binary-tree-right-side-view](https://github.com/Aadya-Garg/_leetcodes/tree/master/0199-binary-tree-right-side-view) |
 | [0733-flood-fill](https://github.com/Aadya-Garg/_leetcodes/tree/master/0733-flood-fill) |
+| [0871-keys-and-rooms](https://github.com/Aadya-Garg/_leetcodes/tree/master/0871-keys-and-rooms) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/Aadya-Garg/_leetcodes/tree/master/1544-count-good-nodes-in-binary-tree) |
 ## Binary Tree
 |  |
@@ -221,6 +223,7 @@
 ## Graph
 |  |
 | ------- |
+| [0871-keys-and-rooms](https://github.com/Aadya-Garg/_leetcodes/tree/master/0871-keys-and-rooms) |
 | [2590-maximum-star-sum-of-a-graph](https://github.com/Aadya-Garg/_leetcodes/tree/master/2590-maximum-star-sum-of-a-graph) |
 ## Design
 |  |
