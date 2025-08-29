@@ -6,15 +6,13 @@ class Solution:
         for i,j in roads:
             hash_[i] += 1
             hash_[j] += 1
-        #I have the number of connections
-        #in the end, loop thorugh rooads again for summing
-        #nlogn for sorting though
+
         list_ = []
         for i in hash_:
             list_.append([i, hash_[i]])
 
         list_.sort(key = lambda x: x[1],reverse=True)
-        print(list_)
+
         for i,j in list_:
             hash_[i] = n
             n -= 1
