@@ -1,22 +1,15 @@
 class Solution:
     def maximumImportance(self, n: int, roads: List[List[int]]) -> int:
-        hash_ = dict()
-        for i in range(n):
-            hash_[i] = 0
+        degree = [0]*n
         for i,j in roads:
-            hash_[i] += 1
-            hash_[j] += 1
+            degree[i] += 1
+            degree[j] += 1
 
-        list_ = []
-        for i in hash_:
-            list_.append([i, hash_[i]])
-
-        list_.sort(key = lambda x: x[1],reverse=True)
-
-        for i,j in list_:
-            hash_[i] = n
-            n -= 1
+        #ordered = sorted(degree, reverse = True)
+        ordered = sorted(range(n), key=degree.__getitem__)
         score = 0
-        for i,j in roads:
-            score += hash_[i] + hash_[j]
+        val = 1
+        for i in ordered:
+            score += val * degree[i]
+            val += 1
         return score
