@@ -5,4 +5,4 @@ class Solution:
        for elem in res_l:
         if elem != "":
             s = elem + " " + s
-       return s.rstrip()
+       return s.strip()
