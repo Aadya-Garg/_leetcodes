@@ -15,6 +15,7 @@
 | [0283-move-zeroes](https://github.com/Aadya-Garg/_leetcodes/tree/master/0283-move-zeroes) |
 | [0334-increasing-triplet-subsequence](https://github.com/Aadya-Garg/_leetcodes/tree/master/0334-increasing-triplet-subsequence) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/Aadya-Garg/_leetcodes/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
+| [0605-can-place-flowers](https://github.com/Aadya-Garg/_leetcodes/tree/master/0605-can-place-flowers) |
 | [0733-flood-fill](https://github.com/Aadya-Garg/_leetcodes/tree/master/0733-flood-fill) |
 | [0735-asteroid-collision](https://github.com/Aadya-Garg/_leetcodes/tree/master/0735-asteroid-collision) |
 | [0740-delete-and-earn](https://github.com/Aadya-Garg/_leetcodes/tree/master/0740-delete-and-earn) |
@@ -196,6 +197,7 @@
 | [0011-container-with-most-water](https://github.com/Aadya-Garg/_leetcodes/tree/master/0011-container-with-most-water) |
 | [0334-increasing-triplet-subsequence](https://github.com/Aadya-Garg/_leetcodes/tree/master/0334-increasing-triplet-subsequence) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/Aadya-Garg/_leetcodes/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
+| [0605-can-place-flowers](https://github.com/Aadya-Garg/_leetcodes/tree/master/0605-can-place-flowers) |
 | [2379-maximum-total-importance-of-roads](https://github.com/Aadya-Garg/_leetcodes/tree/master/2379-maximum-total-importance-of-roads) |
 | [2590-maximum-star-sum-of-a-graph](https://github.com/Aadya-Garg/_leetcodes/tree/master/2590-maximum-star-sum-of-a-graph) |
 | [2636-maximum-subsequence-score](https://github.com/Aadya-Garg/_leetcodes/tree/master/2636-maximum-subsequence-score) |
