@@ -8,17 +8,16 @@ class Solution:
             if chars[i] == char:
                 count += 1
                 chars[i] = " "
+                continue
+            char = chars[i]
 
-            elif count == 1:
-                char = chars[i]
-            else:  
+            if count > 1:  
                 while count > 0:
                     chars[i - temp_ind] = str(count%10)
                     count = count // 10
                     temp_ind += 1
 
                 count = 1
-                char = chars[i]
         
         temp_ind = 1
         if chars[-1] == " ":
