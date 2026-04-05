@@ -10,9 +10,9 @@ class Solution:
 
             if left_v and right_v:
                 # s = s[:l] + s[r] + s[l + 1: r] + s[l] + s[r+1:]
-                temp = arr[l]
-                arr[l] = arr[r]
-                arr[r] = temp
+                # temp = arr[l]
+                arr[l], arr[r] = arr[r], arr[l]
+                # arr[r] = temp
                 l += 1
                 r -= 1
 
