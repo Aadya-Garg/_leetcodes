@@ -1,9 +1,5 @@
 class Solution:
     def compress(self, chars: List[str]) -> int:
-        
-        if len(chars) == 1:
-            return 1
-
         count = 1
         char = chars[0]
         
