@@ -20,18 +20,16 @@ class Solution:
         # return self.canPlaceFlowers(flowerbed[2:], n)
         
         i = 0
-        while i < len(flowerbed):
-            if n == 0:
-                return True
+        while i < len(flowerbed) and n > 0:
                 
             if i == len(flowerbed) - 1:
                 return (flowerbed[i] == 0 and n == 1)
             
             if flowerbed[i] == 0 and flowerbed[i+1] == 0:
-                flowerbed[i] = 1
                 n -= 1
                 
             if flowerbed[i+1] == 1:
                 i += 1
             i += 2
+
         return n == 0
