@@ -19,6 +19,7 @@
 | [0735-asteroid-collision](https://github.com/Aadya-Garg/_leetcodes/tree/master/0735-asteroid-collision) |
 | [0740-delete-and-earn](https://github.com/Aadya-Garg/_leetcodes/tree/master/0740-delete-and-earn) |
 | [0747-min-cost-climbing-stairs](https://github.com/Aadya-Garg/_leetcodes/tree/master/0747-min-cost-climbing-stairs) |
+| [1431-kids-with-the-greatest-number-of-candies](https://github.com/Aadya-Garg/_leetcodes/tree/master/1431-kids-with-the-greatest-number-of-candies) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Aadya-Garg/_leetcodes/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1689-detect-pattern-of-length-m-repeated-k-or-more-times](https://github.com/Aadya-Garg/_leetcodes/tree/master/1689-detect-pattern-of-length-m-repeated-k-or-more-times) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/Aadya-Garg/_leetcodes/tree/master/1741-sort-array-by-increasing-frequency) |
