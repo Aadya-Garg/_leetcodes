@@ -13,12 +13,11 @@ class Solution:
                 arr[r] = temp
                 l += 1
                 r -= 1
-                continue
 
-            if not left_v:
+            elif not left_v:
                 l += 1
 
-            if not right_v:
+            else:
                 r -= 1
         return "".join(arr)
             
