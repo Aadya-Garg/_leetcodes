@@ -26,17 +26,12 @@ class Solution:
                 
             if i == len(flowerbed) - 1:
                 return (flowerbed[i] == 0 and n == 1)
-
+            
             if flowerbed[i] == 0 and flowerbed[i+1] == 0:
                 flowerbed[i] = 1
                 n -= 1
-                i += 2
-                continue
                 
             if flowerbed[i+1] == 1:
-                i += 3
-                continue
-
-            if flowerbed[i] == 1:
-                i += 2
+                i += 1
+            i += 2
         return n == 0
