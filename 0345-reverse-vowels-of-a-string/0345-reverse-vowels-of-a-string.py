@@ -7,6 +7,7 @@ class Solution:
         while l <= r:
             left_v = arr[l].lower() in vowels
             right_v = arr[r].lower() in vowels
+
             if left_v and right_v:
                 temp = arr[l]
                 arr[l] = arr[r]
@@ -19,17 +20,6 @@ class Solution:
 
             else:
                 r -= 1
+
         return "".join(arr)
             
-        # curr = []
-        # for i in range(len(s)):
-        #     if s[i].lower() in vowels:
-        #         curr.append(s[i])
-        # len_ = len(s)        
-        # for i in range(len_):
-        #     if len(curr) == 0:
-        #         return s
-
-        #     if s[i].lower() in vowels:
-        #         s = s[:i] + curr.pop() + s[i+1:]
-        # return s 
