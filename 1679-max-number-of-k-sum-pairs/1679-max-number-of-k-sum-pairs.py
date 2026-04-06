@@ -5,9 +5,10 @@ class Solution:
         output = 0
         nums.sort()
         while (left < right):
-            if (nums[left] + nums[right] < k):
+            temp = nums[left] + nums[right]
+            if ( temp < k):
                 left += 1
-            elif (nums[left] + nums[right] > k):
+            elif (temp > k):
                 right -= 1
             else:
                 left += 1
