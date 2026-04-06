@@ -4,9 +4,9 @@ class Solution:
         write = 0
         char = chars[read]
         count = 0
-
-        for read in range(0, len(chars) + 1):
-            if read < len(chars) and chars[read] == char:
+        len_ = len(chars)
+        for read in range(0, len_ + 1):
+            if read < len_ and chars[read] == char:
                 count += 1
                 continue
             
@@ -18,7 +18,7 @@ class Solution:
                     chars[write] = digit
                     write += 1
                 count = 1
-            char = chars[read] if read < len(chars) else ""
+            char = chars[read] if read < len_ else ""
         chars[:] = chars[: write]
         # for i in range(1, len(chars) + 1):
         #     if i < len(chars) and chars[i] == char:
