@@ -5,8 +5,7 @@ class Solution:
         res = 0
         while l < r:
             temp_h = min(height[l], height[r])
-            temp_w = r - l
-            res = max(res, temp_h * temp_w)
+            res = max(res, temp_h * (r - l))
             #--- how do I move right and left here?
             if height[l] > height[r]:
                 r -= 1
