@@ -16,6 +16,7 @@
 | [0334-increasing-triplet-subsequence](https://github.com/Aadya-Garg/_leetcodes/tree/master/0334-increasing-triplet-subsequence) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/Aadya-Garg/_leetcodes/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0605-can-place-flowers](https://github.com/Aadya-Garg/_leetcodes/tree/master/0605-can-place-flowers) |
+| [0643-maximum-average-subarray-i](https://github.com/Aadya-Garg/_leetcodes/tree/master/0643-maximum-average-subarray-i) |
 | [0733-flood-fill](https://github.com/Aadya-Garg/_leetcodes/tree/master/0733-flood-fill) |
 | [0735-asteroid-collision](https://github.com/Aadya-Garg/_leetcodes/tree/master/0735-asteroid-collision) |
 | [0740-delete-and-earn](https://github.com/Aadya-Garg/_leetcodes/tree/master/0740-delete-and-earn) |
@@ -97,6 +98,7 @@
 ## Sliding Window
 |  |
 | ------- |
+| [0643-maximum-average-subarray-i](https://github.com/Aadya-Garg/_leetcodes/tree/master/0643-maximum-average-subarray-i) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Aadya-Garg/_leetcodes/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 ## Linked List
 |  |
