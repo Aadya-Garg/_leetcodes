@@ -5,7 +5,7 @@ class Solution:
         char = chars[read]
         count = 0
         len_ = len(chars)
-        for read in range(0, len_ + 1):
+        for read in range(len_ + 1):
             if read < len_ and chars[read] == char:
                 count += 1
                 continue
@@ -19,7 +19,7 @@ class Solution:
                     write += 1
                 count = 1
             char = chars[read] if read < len_ else ""
-        chars[:] = chars[: write]
+        return write
         # for i in range(1, len(chars) + 1):
         #     if i < len(chars) and chars[i] == char:
         #         count += 1
