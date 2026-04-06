@@ -8,11 +8,11 @@ class Solution:
                 curr_count += 1
 
         res = curr_count
-        while l + k < len(s):
+        for l in range(len(s) - k):
             if s[l] in vowels:
                 curr_count -= 1
             if s[l + k] in vowels:
                 curr_count += 1
-            l += 1
+         
             res = max(res, curr_count)
         return res
