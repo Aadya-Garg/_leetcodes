@@ -5,7 +5,6 @@ class Solution:
         temp_sum = sum(nums[: k])
         res = temp_sum
         while r < len(nums):
-            print(temp_sum)
             temp_sum = temp_sum - nums[l] + nums[r]
             l += 1
             r += 1
