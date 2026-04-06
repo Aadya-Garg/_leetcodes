@@ -22,6 +22,7 @@
 | [0747-min-cost-climbing-stairs](https://github.com/Aadya-Garg/_leetcodes/tree/master/0747-min-cost-climbing-stairs) |
 | [1431-kids-with-the-greatest-number-of-candies](https://github.com/Aadya-Garg/_leetcodes/tree/master/1431-kids-with-the-greatest-number-of-candies) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Aadya-Garg/_leetcodes/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
+| [1679-max-number-of-k-sum-pairs](https://github.com/Aadya-Garg/_leetcodes/tree/master/1679-max-number-of-k-sum-pairs) |
 | [1689-detect-pattern-of-length-m-repeated-k-or-more-times](https://github.com/Aadya-Garg/_leetcodes/tree/master/1689-detect-pattern-of-length-m-repeated-k-or-more-times) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/Aadya-Garg/_leetcodes/tree/master/1741-sort-array-by-increasing-frequency) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/Aadya-Garg/_leetcodes/tree/master/1798-max-number-of-k-sum-pairs) |
@@ -45,6 +46,7 @@
 |  |
 | ------- |
 | [0740-delete-and-earn](https://github.com/Aadya-Garg/_leetcodes/tree/master/0740-delete-and-earn) |
+| [1679-max-number-of-k-sum-pairs](https://github.com/Aadya-Garg/_leetcodes/tree/master/1679-max-number-of-k-sum-pairs) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/Aadya-Garg/_leetcodes/tree/master/1741-sort-array-by-increasing-frequency) |
 | [1777-determine-if-two-strings-are-close](https://github.com/Aadya-Garg/_leetcodes/tree/master/1777-determine-if-two-strings-are-close) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/Aadya-Garg/_leetcodes/tree/master/1798-max-number-of-k-sum-pairs) |
@@ -61,6 +63,7 @@
 | [0392-is-subsequence](https://github.com/Aadya-Garg/_leetcodes/tree/master/0392-is-subsequence) |
 | [0443-string-compression](https://github.com/Aadya-Garg/_leetcodes/tree/master/0443-string-compression) |
 | [0647-palindromic-substrings](https://github.com/Aadya-Garg/_leetcodes/tree/master/0647-palindromic-substrings) |
+| [1679-max-number-of-k-sum-pairs](https://github.com/Aadya-Garg/_leetcodes/tree/master/1679-max-number-of-k-sum-pairs) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/Aadya-Garg/_leetcodes/tree/master/1798-max-number-of-k-sum-pairs) |
 | [1894-merge-strings-alternately](https://github.com/Aadya-Garg/_leetcodes/tree/master/1894-merge-strings-alternately) |
 | [2236-maximum-twin-sum-of-a-linked-list](https://github.com/Aadya-Garg/_leetcodes/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
@@ -70,6 +73,7 @@
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/Aadya-Garg/_leetcodes/tree/master/0215-kth-largest-element-in-an-array) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/Aadya-Garg/_leetcodes/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
+| [1679-max-number-of-k-sum-pairs](https://github.com/Aadya-Garg/_leetcodes/tree/master/1679-max-number-of-k-sum-pairs) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/Aadya-Garg/_leetcodes/tree/master/1741-sort-array-by-increasing-frequency) |
 | [1777-determine-if-two-strings-are-close](https://github.com/Aadya-Garg/_leetcodes/tree/master/1777-determine-if-two-strings-are-close) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/Aadya-Garg/_leetcodes/tree/master/1798-max-number-of-k-sum-pairs) |
