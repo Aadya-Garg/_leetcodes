@@ -5,10 +5,9 @@ class Solution:
         for j in range(len(nums) - 1, -1 , -1):
             upto_ex += nums[j]
             after.append(upto_ex)
-            
-        upto = 0
+        upto_ex = 0    
         for i in range(len(nums)):
-            upto += nums[i]
-            if upto == after[- (i + 1)]:
+            upto_ex += nums[i]
+            if upto_ex == after[- (i + 1)]:
                 return i
         return -1
