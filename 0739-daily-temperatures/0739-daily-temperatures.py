@@ -16,15 +16,13 @@ class Solution:
                 # oh so we have to keep adding like this until the day has higher value than curr
 
                 #---- check the index calculations thoroughly ----
-                val = temperatures[i + min_days]
                 pointer = i + min_days #-- 2 + 2 + 1 = 5
-                while val <= temperatures[i]:
+                while temperatures[pointer] <= temperatures[i]:
                     if pointer >= n - 1 or after[pointer]  == 0:
                         min_days = 0
                         break
                     min_days += after[pointer] # 8 - 5 - 1 = 2 val = 1
                     pointer += after[pointer] # 6
-                    val = temperatures[pointer]
                 after[i] = min_days
     
         return after
