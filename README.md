@@ -17,6 +17,7 @@
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/Aadya-Garg/_leetcodes/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0605-can-place-flowers](https://github.com/Aadya-Garg/_leetcodes/tree/master/0605-can-place-flowers) |
 | [0643-maximum-average-subarray-i](https://github.com/Aadya-Garg/_leetcodes/tree/master/0643-maximum-average-subarray-i) |
+| [0724-find-pivot-index](https://github.com/Aadya-Garg/_leetcodes/tree/master/0724-find-pivot-index) |
 | [0733-flood-fill](https://github.com/Aadya-Garg/_leetcodes/tree/master/0733-flood-fill) |
 | [0735-asteroid-collision](https://github.com/Aadya-Garg/_leetcodes/tree/master/0735-asteroid-collision) |
 | [0740-delete-and-earn](https://github.com/Aadya-Garg/_leetcodes/tree/master/0740-delete-and-earn) |
@@ -44,6 +45,7 @@
 |  |
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/Aadya-Garg/_leetcodes/tree/master/0238-product-of-array-except-self) |
+| [0724-find-pivot-index](https://github.com/Aadya-Garg/_leetcodes/tree/master/0724-find-pivot-index) |
 | [1732-find-the-highest-altitude](https://github.com/Aadya-Garg/_leetcodes/tree/master/1732-find-the-highest-altitude) |
 ## Hash Table
 |  |
