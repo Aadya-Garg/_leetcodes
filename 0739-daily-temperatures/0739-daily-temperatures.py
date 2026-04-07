@@ -18,7 +18,7 @@ class Solution:
                 val = temperatures[i + min_days]
                 pointer = i + min_days #-- 2 + 2 + 1 = 5
                 while val <= temperatures[i]:
-                    print(val, temperatures[i], pointer)
+                    # print(val, temperatures[i], pointer)
                     if pointer >= n - 1 or after[n - pointer - 1]  == 0:
                         min_days = 0
                         break
