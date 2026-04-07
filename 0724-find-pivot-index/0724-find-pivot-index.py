@@ -6,9 +6,9 @@ class Solution:
             upto_ex += nums[j]
             after.append(upto_ex)
             
-        upto_ex = 0    
+        upto = 0
         for i in range(len(nums)):
-            upto_ex += nums[i]
-            if upto_ex == after[- (i + 1)]:
+            upto += nums[i]
+            if upto == after[- (i + 1)]:
                 return i
         return -1
