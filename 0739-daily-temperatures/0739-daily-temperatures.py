@@ -3,7 +3,7 @@ class Solution:
         n = len(temperatures)
         res = [0]*n
         remaining = [] #--- indices
-        for i in range(0, n):
+        for i in range(n):
             while remaining and temperatures[i] > temperatures[remaining[-1]]:
                     ind = remaining.pop()
                     res[ind] = i - ind
@@ -13,7 +13,6 @@ class Solution:
                 res[i] = 1
             else:
                 remaining.append(i)
-        return res
             
 
         # min_days = 0
