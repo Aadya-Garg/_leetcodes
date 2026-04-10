@@ -12,12 +12,10 @@ class Solution:
                     break
             if i == n - 1:
                 break
-            if temperatures[i + 1] > temperatures[i]:
+            elif temperatures[i + 1] > temperatures[i]:
                 res[i] = 1
             else:
                 remaining.append(i)
-        for j in remaining:
-            res[j] = 0
         return res
             
 
