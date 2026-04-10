@@ -4,12 +4,9 @@ class Solution:
         res = [0]*n
         remaining = [] #--- indices
         for i in range(0, n):
-            while remaining:
-                if temperatures[i] > temperatures[remaining[-1]]:
+            while remaining and temperatures[i] > temperatures[remaining[-1]]:
                     ind = remaining.pop()
                     res[ind] = i - ind
-                else:
-                    break
             if i == n - 1:
                 break
             elif temperatures[i + 1] > temperatures[i]:
