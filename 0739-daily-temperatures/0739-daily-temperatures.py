@@ -8,7 +8,7 @@ class Solution:
                     ind = remaining.pop()
                     res[ind] = i - ind
             if i == n - 1:
-                break
+                return res
             elif temperatures[i + 1] > temperatures[i]:
                 res[i] = 1
             else:
