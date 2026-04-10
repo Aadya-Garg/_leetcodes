@@ -10,9 +10,7 @@ class Solution:
                     res[ind] = i - ind
                 else:
                     break
-            if i == n - 1:
-                break
-            elif temperatures[i + 1] > temperatures[i]:
+            if i < n - 1 and temperatures[i + 1] > temperatures[i]:
                 res[i] = 1
             else:
                 remaining.append(i)
