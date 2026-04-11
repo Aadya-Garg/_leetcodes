@@ -2,10 +2,11 @@ class Trie:
 
     def __init__(self):
         self.prefixes = {}
+        self.isEnd = False
 
     def insert(self, word: str) -> None:
         if len(word) == 0:
-            self.prefixes["$"] = ""
+            self.isEnd = True
             return
 
         if word[0] not in self.prefixes:
@@ -15,11 +16,11 @@ class Trie:
             
     def search(self, word: str) -> bool:
         if len(word) == 0:
-            return "$" in self.prefixes
-        # if len(word) == 1 and word != "$":
-        #     word += "$"
+            return self.isEnd
+     
         if word[0] not in self.prefixes:
             return False
+
         return self.prefixes[word[0]].search(word[1:])
 
     def startsWith(self, prefix: str) -> bool:
