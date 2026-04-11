@@ -117,6 +117,7 @@
 | [0394-decode-string](https://github.com/Aadya-Garg/_leetcodes/tree/master/0394-decode-string) |
 | [0735-asteroid-collision](https://github.com/Aadya-Garg/_leetcodes/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/Aadya-Garg/_leetcodes/tree/master/0739-daily-temperatures) |
+| [0901-online-stock-span](https://github.com/Aadya-Garg/_leetcodes/tree/master/0901-online-stock-span) |
 | [2236-maximum-twin-sum-of-a-linked-list](https://github.com/Aadya-Garg/_leetcodes/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
 ## Tree
 |  |
@@ -253,6 +254,7 @@
 ## Design
 |  |
 | ------- |
+| [0901-online-stock-span](https://github.com/Aadya-Garg/_leetcodes/tree/master/0901-online-stock-span) |
 | [0969-number-of-recent-calls](https://github.com/Aadya-Garg/_leetcodes/tree/master/0969-number-of-recent-calls) |
 ## Queue
 |  |
@@ -261,9 +263,11 @@
 ## Data Stream
 |  |
 | ------- |
+| [0901-online-stock-span](https://github.com/Aadya-Garg/_leetcodes/tree/master/0901-online-stock-span) |
 | [0969-number-of-recent-calls](https://github.com/Aadya-Garg/_leetcodes/tree/master/0969-number-of-recent-calls) |
 ## Monotonic Stack
 |  |
 | ------- |
 | [0739-daily-temperatures](https://github.com/Aadya-Garg/_leetcodes/tree/master/0739-daily-temperatures) |
+| [0901-online-stock-span](https://github.com/Aadya-Garg/_leetcodes/tree/master/0901-online-stock-span) |
 <!---LeetCode Topics End-->
