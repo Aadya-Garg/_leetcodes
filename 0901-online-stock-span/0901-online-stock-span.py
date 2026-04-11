@@ -8,10 +8,7 @@ class StockSpanner:
         #--- append price to past for consistency with the problem  
         span = 1
         n = len(self.pastPrices)
-        while span <= n:
-            prev = self.pastPrices[-span][0]
-            if prev > price:
-                break
+        while span <= n and self.pastPrices[-span][0] <= price:
             span += self.pastPrices[-span][1]
             
         self.pastPrices.append((price, span))
