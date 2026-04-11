@@ -12,9 +12,6 @@ class StockSpanner:
             prev = self.pastPrices[-span][0]
             if prev > price:
                 break
-            if prev == price:
-                span += self.pastPrices[-span][1]
-                break
             span += self.pastPrices[-span][1]
             
         self.pastPrices.append((price, span))
