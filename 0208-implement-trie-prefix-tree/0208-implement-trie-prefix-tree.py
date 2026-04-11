@@ -10,7 +10,7 @@ class Trie:
         if len(word) == 1 and word != "$":
             word += "$"
 
-        if word[0] not in self.prefixes:
+        if word[0] not in self.prefixes.keys():
             # print(f"{word[0]} is not there...")
             self.prefixes[word[0]] = Trie() # we keep adding keys
 
