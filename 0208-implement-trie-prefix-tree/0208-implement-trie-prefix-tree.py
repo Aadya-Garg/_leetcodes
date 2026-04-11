@@ -5,31 +5,36 @@ class Trie:
         self.isEnd = False
 
     def insert(self, word: str, index: int = 0) -> None:
-        try:
-            if word[index] not in self.prefixes:
-                self.prefixes[word[index]] = Trie() # we keep adding keys
+        curr = self
+        for char in word:
+            if char not in curr.prefixes:
+                curr.prefixes[char] = Trie()
+            curr = curr.prefixes[char]
+        curr.isEnd = True
+        # try:
+        #     if word[index] not in self.prefixes:
+        #         self.prefixes[word[index]] = Trie() # we keep adding keys
 
-            self.prefixes[word[index]].insert(word, index + 1)
-        except IndexError:
-            self.isEnd = True
-            return
+        #     self.prefixes[word[index]].insert(word, index + 1)
+        # except IndexError:
+        #     self.isEnd = True
+        #     return
 
     def search(self, word: str, index: int = 0) -> bool:
-        try:
-            if word[index] not in self.prefixes:
+        curr = self
+        for char in word:
+            if char not in curr.prefixes:
                 return False
-
-            return self.prefixes[word[index]].search(word, index+ 1)
-        except IndexError:
-            return self.isEnd
+            curr = curr.prefixes[char]
+        return curr.isEnd
 
     def startsWith(self, prefix: str, index: int = 0) -> bool:
-        try:
-            if prefix[index] not in self.prefixes:
+        curr = self
+        for char in prefix:
+            if char not in curr.prefixes:
                 return False
-            return self.prefixes[prefix[index]].startsWith(prefix, index + 1)
-        except IndexError:
-            return True
+            curr = curr.prefixes[char]
+        return True
 
 
 
