@@ -5,22 +5,19 @@ class Trie:
 
     def insert(self, word: str) -> None:
         if len(word) == 0:
+            self.prefixes["$"] = ""
             return
 
-        if len(word) == 1 and word != "$":
-            word += "$"
-
         if word[0] not in self.prefixes:
-            # print(f"{word[0]} is not there...")
             self.prefixes[word[0]] = Trie() # we keep adding keys
 
         self.prefixes[word[0]].insert(word[1:])
             
     def search(self, word: str) -> bool:
         if len(word) == 0:
-            return True
-        if len(word) == 1 and word != "$":
-            word += "$"
+            return "$" in self.prefixes
+        # if len(word) == 1 and word != "$":
+        #     word += "$"
         if word[0] not in self.prefixes:
             return False
         return self.prefixes[word[0]].search(word[1:])
