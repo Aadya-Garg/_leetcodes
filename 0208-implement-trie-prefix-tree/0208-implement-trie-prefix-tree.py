@@ -4,31 +4,32 @@ class Trie:
         self.prefixes = {}
         self.isEnd = False
 
-    def insert(self, word: str) -> None:
-        if len(word) == 0:
+    def insert(self, word: str, index: int = 0) -> None:
+        try:
+            if word[index] not in self.prefixes:
+                self.prefixes[word[index]] = Trie() # we keep adding keys
+
+            self.prefixes[word[index]].insert(word, index + 1)
+        except IndexError:
             self.isEnd = True
             return
 
-        if word[0] not in self.prefixes:
-            self.prefixes[word[0]] = Trie() # we keep adding keys
+    def search(self, word: str, index: int = 0) -> bool:
+        try:
+            if word[index] not in self.prefixes:
+                return False
 
-        self.prefixes[word[0]].insert(word[1:])
-            
-    def search(self, word: str) -> bool:
-        if len(word) == 0:
+            return self.prefixes[word[index]].search(word, index+ 1)
+        except IndexError:
             return self.isEnd
-     
-        if word[0] not in self.prefixes:
-            return False
 
-        return self.prefixes[word[0]].search(word[1:])
-
-    def startsWith(self, prefix: str) -> bool:
-        if len(prefix) == 0:
+    def startsWith(self, prefix: str, index: int = 0) -> bool:
+        try:
+            if prefix[index] not in self.prefixes:
+                return False
+            return self.prefixes[prefix[index]].startsWith(prefix, index + 1)
+        except IndexError:
             return True
-        if prefix[0] not in self.prefixes:
-            return False
-        return self.prefixes[prefix[0]].startsWith(prefix[1:])
 
 
 
