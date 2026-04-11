@@ -51,6 +51,7 @@
 ## Hash Table
 |  |
 | ------- |
+| [0208-implement-trie-prefix-tree](https://github.com/Aadya-Garg/_leetcodes/tree/master/0208-implement-trie-prefix-tree) |
 | [0740-delete-and-earn](https://github.com/Aadya-Garg/_leetcodes/tree/master/0740-delete-and-earn) |
 | [1679-max-number-of-k-sum-pairs](https://github.com/Aadya-Garg/_leetcodes/tree/master/1679-max-number-of-k-sum-pairs) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/Aadya-Garg/_leetcodes/tree/master/1741-sort-array-by-increasing-frequency) |
@@ -166,6 +167,7 @@
 | ------- |
 | [0067-add-binary](https://github.com/Aadya-Garg/_leetcodes/tree/master/0067-add-binary) |
 | [0151-reverse-words-in-a-string](https://github.com/Aadya-Garg/_leetcodes/tree/master/0151-reverse-words-in-a-string) |
+| [0208-implement-trie-prefix-tree](https://github.com/Aadya-Garg/_leetcodes/tree/master/0208-implement-trie-prefix-tree) |
 | [0345-reverse-vowels-of-a-string](https://github.com/Aadya-Garg/_leetcodes/tree/master/0345-reverse-vowels-of-a-string) |
 | [0392-is-subsequence](https://github.com/Aadya-Garg/_leetcodes/tree/master/0392-is-subsequence) |
 | [0394-decode-string](https://github.com/Aadya-Garg/_leetcodes/tree/master/0394-decode-string) |
@@ -254,6 +256,7 @@
 ## Design
 |  |
 | ------- |
+| [0208-implement-trie-prefix-tree](https://github.com/Aadya-Garg/_leetcodes/tree/master/0208-implement-trie-prefix-tree) |
 | [0901-online-stock-span](https://github.com/Aadya-Garg/_leetcodes/tree/master/0901-online-stock-span) |
 | [0969-number-of-recent-calls](https://github.com/Aadya-Garg/_leetcodes/tree/master/0969-number-of-recent-calls) |
 ## Queue
@@ -270,4 +273,8 @@
 | ------- |
 | [0739-daily-temperatures](https://github.com/Aadya-Garg/_leetcodes/tree/master/0739-daily-temperatures) |
 | [0901-online-stock-span](https://github.com/Aadya-Garg/_leetcodes/tree/master/0901-online-stock-span) |
+## Trie
+|  |
+| ------- |
+| [0208-implement-trie-prefix-tree](https://github.com/Aadya-Garg/_leetcodes/tree/master/0208-implement-trie-prefix-tree) |
 <!---LeetCode Topics End-->
