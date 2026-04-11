@@ -16,7 +16,7 @@ class StockSpanner:
             span += self.pastPrices[tempInd][1]
             tempInd -= (self.pastPrices[tempInd][1])
             
-        self.pastPrices.append([price, span])
+        self.pastPrices.append((price, span))
         return span
 
         # check if previous day's span is already calulcated -> recursive
