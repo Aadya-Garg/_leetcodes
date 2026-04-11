@@ -14,8 +14,7 @@ class Trie:
             # print(f"{word[0]} is not there...")
             self.prefixes[word[0]] = Trie() # we keep adding keys
 
-        new = self.prefixes[word[0]]
-        new.insert(word[1:])
+        self.prefixes[word[0]].insert(word[1:])
             
     def search(self, word: str) -> bool:
         if len(word) == 0:
