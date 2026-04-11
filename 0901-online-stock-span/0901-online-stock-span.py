@@ -5,14 +5,8 @@ class StockSpanner:
         # since span is cumulative, can store it so can use it
 
     def next(self, price: int) -> int:
-        #--- append price to past for consistency with the problem
-        
-        if self.pastPrices == []:
-            self.pastPrices.append([price, 1])
-            return 1
-            
+        #--- append price to past for consistency with the problem  
         span = 1
-        prev = self.pastPrices[-1][0]
         n = len(self.pastPrices)
         tempInd = -1
         while tempInd >= -n:
