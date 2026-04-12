@@ -7,9 +7,9 @@ class Trie:
         curr = self
         word += "$"
         for char in word:
-            if char not in curr.prefixes:
-                curr.prefixes[char] = Trie()
-            curr = curr.prefixes[char]
+            # if char not in curr.prefixes:
+            #     curr.prefixes[char] = Trie()
+            curr = curr.prefixes.setdefault(char, Trie()) #curr.prefixes[char]
 
     def search(self, word: str, index: int = 0) -> bool:
         curr = self
