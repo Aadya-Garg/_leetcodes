@@ -23,12 +23,11 @@ class Solution:
         curr = self.prefixes
         for i in range(len(searchWord)):
             char = searchWord[i]
-            res.append([])
             if char not in curr:
                 curr = {}
+                res.append([])
             else:
-                for ind in curr[char]["words"]:
-                    res[i].append(products[ind])
+                res.append([products[ind] for ind in curr[char]["words"]])
                 curr = curr[char]
 
         return res
