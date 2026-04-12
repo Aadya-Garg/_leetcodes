@@ -2,23 +2,22 @@ class Trie:
 
     def __init__(self):
         self.prefixes = {}
-
+        self.isEnd = False
     def insert(self, word: str, index: int = 0) -> None:
         curr = self
-        word += "$"
         for char in word:
             # if char not in curr.prefixes:
             #     curr.prefixes[char] = Trie()
             curr = curr.prefixes.setdefault(char, Trie()) #curr.prefixes[char]
+        curr.isEnd = True
 
     def search(self, word: str, index: int = 0) -> bool:
         curr = self
-        word += "$"
         for char in word:
             if char not in curr.prefixes:
                 return False
             curr = curr.prefixes[char]
-        return True
+        return curr.isEnd
 
     def startsWith(self, prefix: str, index: int = 0) -> bool:
         curr = self
