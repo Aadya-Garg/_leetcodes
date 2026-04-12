@@ -1,22 +1,18 @@
 class TrieNode:
         __slots__ = ["prefixes", "words"]
         def __init__(self):
-            self.prefixes = {}
+            self.prefixes = collections.defaultdict(TrieNode)
             self.words = []
 
         def insert(self, word: str, index: int) -> None:
             curr = self
             for char in word: # so total = O(length of word)
-                if char not in curr.prefixes: # constant
-                    curr.prefixes[char] = TrieNode()
                 curr = curr.prefixes[char] #constant
                 if len(curr.words) < 3: # constant
                     curr.words.append(index)
 
                 
 class Solution:
-    
-
     def suggestedProducts(self, products: List[str], searchWord: str) -> List[List[str]]:
         #---- build trie ---
         products.sort() #O(nlogn)
