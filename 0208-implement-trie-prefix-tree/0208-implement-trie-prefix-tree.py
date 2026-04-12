@@ -1,18 +1,23 @@
-class Trie:
-
+class TrieNode:
+    __slots__ = ["prefixes", "isEnd"]
     def __init__(self):
         self.prefixes = {}
         self.isEnd = False
+
+class Trie:
+    def __init__(self):
+        self.root = TrieNode()
+
     def insert(self, word: str, index: int = 0) -> None:
-        curr = self
+        curr = self.root
         for char in word:
             # if char not in curr.prefixes:
             #     curr.prefixes[char] = Trie()
-            curr = curr.prefixes.setdefault(char, Trie()) #curr.prefixes[char]
+            curr = curr.prefixes.setdefault(char, TrieNode()) #curr.prefixes[char]
         curr.isEnd = True
 
     def search(self, word: str, index: int = 0) -> bool:
-        curr = self
+        curr = self.root
         for char in word:
             if char not in curr.prefixes:
                 return False
@@ -20,7 +25,7 @@ class Trie:
         return curr.isEnd
 
     def startsWith(self, prefix: str, index: int = 0) -> bool:
-        curr = self
+        curr = self.root
         for char in prefix:
             if char not in curr.prefixes:
                 return False
