@@ -1,17 +1,21 @@
+class TrieNode:
+        __slots__ = ["prefixes", "words"]
+        def __init__(self):
+            self.prefixes = {}
+            self.words = []
+
+        def insert(self, word: str, index: int) -> None:
+            curr = self
+            for char in word: # so total = O(length of word)
+                if char not in curr.prefixes: # constant
+                    curr.prefixes[char] = TrieNode()
+                curr = curr.prefixes[char] #constant
+                if len(curr.words) < 3: # constant
+                    curr.words.append(index)
+
+                
 class Solution:
-    def __init__(self):
-        self.prefixes = {"words": []}
-
-    def insert(self, word: str, index: int = 0) -> None:
-        curr_prefixes = self.prefixes
-        for char in word: # so total = O(length of word)
-            if char not in curr_prefixes: # constant
-                curr_prefixes[char] = {"words": []}
-
-            if len(curr_prefixes[char]["words"]) < 3: # constant
-                curr_prefixes[char]["words"].append(index)
-
-            curr_prefixes = curr_prefixes[char] #constant
+    
 
     def suggestedProducts(self, products: List[str], searchWord: str) -> List[List[str]]:
         #---- build trie ---
@@ -33,19 +37,19 @@ class Solution:
             
         #     res.append(products[l:min(l+3, r + 1)]) if l <= r else res.append([])
         # return res
-
-        for i in range(len(products)): #O(total # of characters in products)
-            self.insert(products[i], i)
-            
-        res =[]
-        curr = self.prefixes
-        for i in range(len(searchWord)):
-            char = searchWord[i]
-            if char not in curr:
-                curr = {}
-                res.append([])
+        root = TrieNode()
+        for i, word in enumerate(products): #O(total # of characters in products)
+            root.insert(word, i)
+     
+        res = []
+        curr = root
+        for char in searchWord:
+            if curr and char in curr.prefixes:
+                curr = curr.prefixes[char]
+                res.append([products[ind] for ind in curr.words])
+                
             else:
-                res.append([products[ind] for ind in curr[char]["words"]])
-                curr = curr[char]
+                res.append([])
+                curr = None
 
         return res
