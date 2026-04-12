@@ -26,9 +26,9 @@ class Solution:
             res.append([])
             if char not in curr:
                 curr = {}
-                continue
-            for ind in curr[char]["words"]:
-                res[i].append(products[ind])
-            curr = curr[char]
+            else:
+                for ind in curr[char]["words"]:
+                    res[i].append(products[ind])
+                curr = curr[char]
 
         return res
