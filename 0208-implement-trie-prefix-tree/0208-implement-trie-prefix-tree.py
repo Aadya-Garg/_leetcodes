@@ -1,14 +1,14 @@
 class Trie:
 
     def __init__(self):
-        self.prefixes = {}
+        self.prefixes = collections.defaultdict(Trie)#{}
         self.isEnd = False
 
     def insert(self, word: str, index: int = 0) -> None:
         curr = self
         for char in word:
-            if char not in curr.prefixes:
-                curr.prefixes[char] = Trie()
+            # if char not in curr.prefixes:
+            #     curr.prefixes[char] = Trie()
             curr = curr.prefixes[char]
         curr.isEnd = True
         # try:
