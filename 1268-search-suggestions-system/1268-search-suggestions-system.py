@@ -2,31 +2,33 @@ class Solution:
     def __init__(self):
         self.prefixes = {"words": []}
 
-    def insert(self, word: str) -> None:
+    def insert(self, word: str, index: int = 0) -> None:
         curr_prefixes = self.prefixes
         for char in word:
             if char not in curr_prefixes:
                 curr_prefixes[char] = {"words": []}
 
             if len(curr_prefixes[char]["words"]) < 3:
-                curr_prefixes[char]["words"].append(word)
+                curr_prefixes[char]["words"].append(index)
 
             curr_prefixes = curr_prefixes[char]
 
     def suggestedProducts(self, products: List[str], searchWord: str) -> List[List[str]]:
         #---- build trie ---
         products.sort()
-        for pr in products:
-            self.insert(pr)
+        for i in range(len(products)):
+            self.insert(products[i], i)
             
-        res =[[]]*len(searchWord)
-      
+        res =[]
         curr = self.prefixes
         for i in range(len(searchWord)):
             char = searchWord[i]
+            res.append([])
             if char not in curr:
-                return res
-              
-            res[i] = curr[char]["words"]
+                curr = {}
+                continue
+            for ind in curr[char]["words"]:
+                res[i].append(products[ind])
             curr = curr[char]
+
         return res
