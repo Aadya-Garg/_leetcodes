@@ -1,21 +1,29 @@
 class Trie:
 
     def __init__(self):
-        self.prefixes = collections.defaultdict(Trie)#{}
+        self.prefixes = {}
         self.isEnd = False
 
     def insert(self, word: str, index: int = 0) -> None:
         curr = self
         for char in word:
-            # if char not in curr.prefixes:
-            #     curr.prefixes[char] = Trie()
+            if char not in curr.prefixes:
+                curr.prefixes[char] = Trie()
             curr = curr.prefixes[char]
         curr.isEnd = True
+        # try:
+        #     if word[index] not in self.prefixes:
+        #         self.prefixes[word[index]] = Trie() # we keep adding keys
+
+        #     self.prefixes[word[index]].insert(word, index + 1)
+        # except IndexError:
+        #     self.isEnd = True
+        #     return
 
     def search(self, word: str, index: int = 0) -> bool:
         curr = self
         for char in word:
-            if not curr.prefixes.get(char):
+            if char not in curr.prefixes:
                 return False
             curr = curr.prefixes[char]
         return curr.isEnd
@@ -23,7 +31,7 @@ class Trie:
     def startsWith(self, prefix: str, index: int = 0) -> bool:
         curr = self
         for char in prefix:
-            if not curr.prefixes.get(char):
+            if char not in curr.prefixes:
                 return False
             curr = curr.prefixes[char]
         return True
