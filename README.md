@@ -23,6 +23,7 @@
 | [0739-daily-temperatures](https://github.com/Aadya-Garg/_leetcodes/tree/master/0739-daily-temperatures) |
 | [0740-delete-and-earn](https://github.com/Aadya-Garg/_leetcodes/tree/master/0740-delete-and-earn) |
 | [0747-min-cost-climbing-stairs](https://github.com/Aadya-Garg/_leetcodes/tree/master/0747-min-cost-climbing-stairs) |
+| [1268-search-suggestions-system](https://github.com/Aadya-Garg/_leetcodes/tree/master/1268-search-suggestions-system) |
 | [1431-kids-with-the-greatest-number-of-candies](https://github.com/Aadya-Garg/_leetcodes/tree/master/1431-kids-with-the-greatest-number-of-candies) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Aadya-Garg/_leetcodes/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1679-max-number-of-k-sum-pairs](https://github.com/Aadya-Garg/_leetcodes/tree/master/1679-max-number-of-k-sum-pairs) |
@@ -80,6 +81,7 @@
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/Aadya-Garg/_leetcodes/tree/master/0215-kth-largest-element-in-an-array) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/Aadya-Garg/_leetcodes/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
+| [1268-search-suggestions-system](https://github.com/Aadya-Garg/_leetcodes/tree/master/1268-search-suggestions-system) |
 | [1679-max-number-of-k-sum-pairs](https://github.com/Aadya-Garg/_leetcodes/tree/master/1679-max-number-of-k-sum-pairs) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/Aadya-Garg/_leetcodes/tree/master/1741-sort-array-by-increasing-frequency) |
 | [1777-determine-if-two-strings-are-close](https://github.com/Aadya-Garg/_leetcodes/tree/master/1777-determine-if-two-strings-are-close) |
@@ -161,6 +163,7 @@
 | ------- |
 | [0162-find-peak-element](https://github.com/Aadya-Garg/_leetcodes/tree/master/0162-find-peak-element) |
 | [0374-guess-number-higher-or-lower](https://github.com/Aadya-Garg/_leetcodes/tree/master/0374-guess-number-higher-or-lower) |
+| [1268-search-suggestions-system](https://github.com/Aadya-Garg/_leetcodes/tree/master/1268-search-suggestions-system) |
 | [3437-maximum-total-damage-with-spell-casting](https://github.com/Aadya-Garg/_leetcodes/tree/master/3437-maximum-total-damage-with-spell-casting) |
 ## String
 |  |
@@ -174,6 +177,7 @@
 | [0443-string-compression](https://github.com/Aadya-Garg/_leetcodes/tree/master/0443-string-compression) |
 | [0647-palindromic-substrings](https://github.com/Aadya-Garg/_leetcodes/tree/master/0647-palindromic-substrings) |
 | [1146-greatest-common-divisor-of-strings](https://github.com/Aadya-Garg/_leetcodes/tree/master/1146-greatest-common-divisor-of-strings) |
+| [1268-search-suggestions-system](https://github.com/Aadya-Garg/_leetcodes/tree/master/1268-search-suggestions-system) |
 | [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/Aadya-Garg/_leetcodes/tree/master/1456-maximum-number-of-vowels-in-a-substring-of-given-length) |
 | [1777-determine-if-two-strings-are-close](https://github.com/Aadya-Garg/_leetcodes/tree/master/1777-determine-if-two-strings-are-close) |
 | [1894-merge-strings-alternately](https://github.com/Aadya-Garg/_leetcodes/tree/master/1894-merge-strings-alternately) |
@@ -231,6 +235,7 @@
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/Aadya-Garg/_leetcodes/tree/master/0215-kth-largest-element-in-an-array) |
+| [1268-search-suggestions-system](https://github.com/Aadya-Garg/_leetcodes/tree/master/1268-search-suggestions-system) |
 | [2379-maximum-total-importance-of-roads](https://github.com/Aadya-Garg/_leetcodes/tree/master/2379-maximum-total-importance-of-roads) |
 | [2590-maximum-star-sum-of-a-graph](https://github.com/Aadya-Garg/_leetcodes/tree/master/2590-maximum-star-sum-of-a-graph) |
 | [2636-maximum-subsequence-score](https://github.com/Aadya-Garg/_leetcodes/tree/master/2636-maximum-subsequence-score) |
@@ -277,4 +282,5 @@
 |  |
 | ------- |
 | [0208-implement-trie-prefix-tree](https://github.com/Aadya-Garg/_leetcodes/tree/master/0208-implement-trie-prefix-tree) |
+| [1268-search-suggestions-system](https://github.com/Aadya-Garg/_leetcodes/tree/master/1268-search-suggestions-system) |
 <!---LeetCode Topics End-->
