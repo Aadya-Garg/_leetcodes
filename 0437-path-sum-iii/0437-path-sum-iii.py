@@ -14,14 +14,14 @@ class Solution:
 
         while stack:
             node, prevSums = stack.pop()
-            sum_new = [0]*(len(prevSums) + 1)
+            sum_new = []
                 
-            for i in range(len(prevSums)):
-                sum_new[i] = prevSums[i] - node.val
-                if sum_new[i] == 0:
+            for num in prevSums:
+                sum_new.append(num - node.val)
+                if num == node.val:
                     res += 1
             diff = targetSum - node.val
-            sum_new[-1] = diff
+            sum_new.append(diff)
             if diff == 0:
                 res += 1
 
