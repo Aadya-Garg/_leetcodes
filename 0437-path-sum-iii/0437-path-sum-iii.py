@@ -32,8 +32,9 @@ class Solution:
             stack.append((root.left, [targetSum - root.val]))
 
         while stack:
-            node, sums = stack.pop()
-            sum_new = copy.deepcopy(sums)
+            array = stack.pop()
+            sum_new = copy.deepcopy(array[1])
+            node = array[0]
             # append the look up vals to sums
             curr_val = node.val
             for i in range(len(sum_new)): #sums = [-2] [-5, 11] [6, 0]
