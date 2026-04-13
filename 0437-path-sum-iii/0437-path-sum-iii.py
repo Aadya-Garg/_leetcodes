@@ -4,21 +4,9 @@ class TreeNode:
         self.val = val
         self.left = left
         self.right = right
-
-    # def updateSums(sum1, sum2, targetSum, res):
-    #     val = self.val
-    #     # there are always two possible sums
-    #     # one follows as: parent's val + curr, other: curr
-    #     sum1 += node.val
-    #     if sum1 > targetSum:
-    #         sum1 = node.val
-    #     if sum1 == targetSum:
-    #         res += 1
-    #         sum1 = node.val
         
 class Solution:
     def pathSum(self, root: Optional[TreeNode], targetSum: int) -> int:
-        # print(root, targetSum)
         if not root:
             return 0
         stack = []
@@ -26,24 +14,24 @@ class Solution:
         if root.val == targetSum:
             res = 1
         if root.right:
-            stack.append((root.right, [targetSum - root.val]))
-
+             stack.append((root.right, [targetSum - root.val]))
         if root.left:
             stack.append((root.left, [targetSum - root.val]))
 
         while stack:
-            array = stack.pop()
-            sum_new = copy.deepcopy(array[1])
-            node = array[0]
+            node, s = stack.pop()
+            sum_new = copy.deepcopy(s)
             # append the look up vals to sums
             curr_val = node.val
-            for i in range(len(sum_new)): #sums = [-2] [-5, 11] [6, 0]
-                if curr_val == sum_new[i]: # 10 != 8
-                    res += 1
+                
+            for i in range(len(sum_new)):
                 sum_new[i] -= curr_val
-            if curr_val == targetSum:
-                res += 1
+                if sum_new[i] == 0:
+                    res += 1
+            
             sum_new.append(targetSum - curr_val) #yes it can be 0 that I am looking for
+            if sum_new[-1] == 0:
+                res += 1
 
             if node.right:
                 stack.append((node.right, sum_new))
