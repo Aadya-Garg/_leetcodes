@@ -9,14 +9,14 @@ class Solution:
     def pathSum(self, root: Optional[TreeNode], targetSum: int) -> int:
         if not root:
             return 0
-        stack = []
+        stack = [(root, [])]
         res = 0
-        if root.val == targetSum:
-            res = 1
-        if root.right:
-             stack.append((root.right, [targetSum - root.val]))
-        if root.left:
-            stack.append((root.left, [targetSum - root.val]))
+        # if root.val == targetSum:
+        #     res = 1
+        # if root.right:
+        #      stack.append((root.right, [targetSum - root.val]))
+        # if root.left:
+        #     stack.append((root.left, [targetSum - root.val]))
 
         while stack:
             node, s = stack.pop()
