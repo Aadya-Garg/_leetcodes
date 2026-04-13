@@ -20,12 +20,12 @@ class Solution:
 
         while stack:
             node, s = stack.pop()
-            sum_new = copy.deepcopy(s)
+            sum_new = [0]*len(s)
             # append the look up vals to sums
             curr_val = node.val
                 
-            for i in range(len(sum_new)):
-                sum_new[i] -= curr_val
+            for i in range(len(s)):
+                sum_new[i] = s[i] - curr_val
                 if sum_new[i] == 0:
                     res += 1
             
