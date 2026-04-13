@@ -38,5 +38,6 @@ class Solution:
 
             if node.left:
                 stack.append((node.left, sum_new))
+            del(sum_new)
         return res
     
