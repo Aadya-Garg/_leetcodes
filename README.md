@@ -101,6 +101,7 @@
 | [0740-delete-and-earn](https://github.com/Aadya-Garg/_leetcodes/tree/master/0740-delete-and-earn) |
 | [0747-min-cost-climbing-stairs](https://github.com/Aadya-Garg/_leetcodes/tree/master/0747-min-cost-climbing-stairs) |
 | [1236-n-th-tribonacci-number](https://github.com/Aadya-Garg/_leetcodes/tree/master/1236-n-th-tribonacci-number) |
+| [1372-longest-zigzag-path-in-a-binary-tree](https://github.com/Aadya-Garg/_leetcodes/tree/master/1372-longest-zigzag-path-in-a-binary-tree) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Aadya-Garg/_leetcodes/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [3437-maximum-total-damage-with-spell-casting](https://github.com/Aadya-Garg/_leetcodes/tree/master/3437-maximum-total-damage-with-spell-casting) |
 ## Sliding Window
@@ -131,6 +132,7 @@
 | [0437-path-sum-iii](https://github.com/Aadya-Garg/_leetcodes/tree/master/0437-path-sum-iii) |
 | [0783-search-in-a-binary-search-tree](https://github.com/Aadya-Garg/_leetcodes/tree/master/0783-search-in-a-binary-search-tree) |
 | [0904-leaf-similar-trees](https://github.com/Aadya-Garg/_leetcodes/tree/master/0904-leaf-similar-trees) |
+| [1372-longest-zigzag-path-in-a-binary-tree](https://github.com/Aadya-Garg/_leetcodes/tree/master/1372-longest-zigzag-path-in-a-binary-tree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/Aadya-Garg/_leetcodes/tree/master/1544-count-good-nodes-in-binary-tree) |
 ## Depth-First Search
 |  |
@@ -142,6 +144,7 @@
 | [0733-flood-fill](https://github.com/Aadya-Garg/_leetcodes/tree/master/0733-flood-fill) |
 | [0871-keys-and-rooms](https://github.com/Aadya-Garg/_leetcodes/tree/master/0871-keys-and-rooms) |
 | [0904-leaf-similar-trees](https://github.com/Aadya-Garg/_leetcodes/tree/master/0904-leaf-similar-trees) |
+| [1372-longest-zigzag-path-in-a-binary-tree](https://github.com/Aadya-Garg/_leetcodes/tree/master/1372-longest-zigzag-path-in-a-binary-tree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/Aadya-Garg/_leetcodes/tree/master/1544-count-good-nodes-in-binary-tree) |
 ## Breadth-First Search
 |  |
@@ -160,6 +163,7 @@
 | [0437-path-sum-iii](https://github.com/Aadya-Garg/_leetcodes/tree/master/0437-path-sum-iii) |
 | [0783-search-in-a-binary-search-tree](https://github.com/Aadya-Garg/_leetcodes/tree/master/0783-search-in-a-binary-search-tree) |
 | [0904-leaf-similar-trees](https://github.com/Aadya-Garg/_leetcodes/tree/master/0904-leaf-similar-trees) |
+| [1372-longest-zigzag-path-in-a-binary-tree](https://github.com/Aadya-Garg/_leetcodes/tree/master/1372-longest-zigzag-path-in-a-binary-tree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/Aadya-Garg/_leetcodes/tree/master/1544-count-good-nodes-in-binary-tree) |
 ## Binary Search
 |  |
