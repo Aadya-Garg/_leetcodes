@@ -7,7 +7,7 @@
 class Solution:
     def maxLevelSum(self, root: Optional[TreeNode]) -> int:
         # will need to touch all nodes once
-        res = -100000
+        res = float('-inf')
         res_level = 1
         level = 1
         q = deque([root])
