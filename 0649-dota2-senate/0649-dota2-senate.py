@@ -10,9 +10,7 @@ class Solution:
 
         next_position = len(senate)
         while r_positions and d_positions:
-            r = r_positions.popleft()
-            d = d_positions.popleft()
-            if r < d:
+            if r_positions.popleft() < d_positions.popleft():
                 r_positions.append(next_position)
             else:
                 d_positions.append(next_position)
