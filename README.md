@@ -187,6 +187,7 @@
 | [0394-decode-string](https://github.com/Aadya-Garg/_leetcodes/tree/master/0394-decode-string) |
 | [0443-string-compression](https://github.com/Aadya-Garg/_leetcodes/tree/master/0443-string-compression) |
 | [0647-palindromic-substrings](https://github.com/Aadya-Garg/_leetcodes/tree/master/0647-palindromic-substrings) |
+| [0649-dota2-senate](https://github.com/Aadya-Garg/_leetcodes/tree/master/0649-dota2-senate) |
 | [1146-greatest-common-divisor-of-strings](https://github.com/Aadya-Garg/_leetcodes/tree/master/1146-greatest-common-divisor-of-strings) |
 | [1268-search-suggestions-system](https://github.com/Aadya-Garg/_leetcodes/tree/master/1268-search-suggestions-system) |
 | [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/Aadya-Garg/_leetcodes/tree/master/1456-maximum-number-of-vowels-in-a-substring-of-given-length) |
@@ -234,6 +235,7 @@
 | [0334-increasing-triplet-subsequence](https://github.com/Aadya-Garg/_leetcodes/tree/master/0334-increasing-triplet-subsequence) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/Aadya-Garg/_leetcodes/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0605-can-place-flowers](https://github.com/Aadya-Garg/_leetcodes/tree/master/0605-can-place-flowers) |
+| [0649-dota2-senate](https://github.com/Aadya-Garg/_leetcodes/tree/master/0649-dota2-senate) |
 | [2379-maximum-total-importance-of-roads](https://github.com/Aadya-Garg/_leetcodes/tree/master/2379-maximum-total-importance-of-roads) |
 | [2590-maximum-star-sum-of-a-graph](https://github.com/Aadya-Garg/_leetcodes/tree/master/2590-maximum-star-sum-of-a-graph) |
 | [2636-maximum-subsequence-score](https://github.com/Aadya-Garg/_leetcodes/tree/master/2636-maximum-subsequence-score) |
@@ -278,6 +280,7 @@
 ## Queue
 |  |
 | ------- |
+| [0649-dota2-senate](https://github.com/Aadya-Garg/_leetcodes/tree/master/0649-dota2-senate) |
 | [0969-number-of-recent-calls](https://github.com/Aadya-Garg/_leetcodes/tree/master/0969-number-of-recent-calls) |
 ## Data Stream
 |  |
