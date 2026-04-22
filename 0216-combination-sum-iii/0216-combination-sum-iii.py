@@ -6,9 +6,12 @@ class Solution:
             if len(curr_combo) == k and curr_sum == n:
                 res.append(curr_combo[:])
                 return
-            if len(curr_combo) > k or curr_sum > n:
-                return
+            
             for i in range(lower, 10):
+                if curr_sum + i > n:
+                    break
+                if len(curr_combo) >= k:
+                    break
                 curr_combo.append(i)
                 backtrack(i + 1, curr_sum + i, curr_combo)
                 curr_combo.pop()
