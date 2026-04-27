@@ -101,6 +101,7 @@
 | [0647-palindromic-substrings](https://github.com/Aadya-Garg/_leetcodes/tree/master/0647-palindromic-substrings) |
 | [0740-delete-and-earn](https://github.com/Aadya-Garg/_leetcodes/tree/master/0740-delete-and-earn) |
 | [0747-min-cost-climbing-stairs](https://github.com/Aadya-Garg/_leetcodes/tree/master/0747-min-cost-climbing-stairs) |
+| [0790-domino-and-tromino-tiling](https://github.com/Aadya-Garg/_leetcodes/tree/master/0790-domino-and-tromino-tiling) |
 | [1236-n-th-tribonacci-number](https://github.com/Aadya-Garg/_leetcodes/tree/master/1236-n-th-tribonacci-number) |
 | [1372-longest-zigzag-path-in-a-binary-tree](https://github.com/Aadya-Garg/_leetcodes/tree/master/1372-longest-zigzag-path-in-a-binary-tree) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Aadya-Garg/_leetcodes/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
