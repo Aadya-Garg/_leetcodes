@@ -94,6 +94,7 @@
 ## Dynamic Programming
 |  |
 | ------- |
+| [0062-unique-paths](https://github.com/Aadya-Garg/_leetcodes/tree/master/0062-unique-paths) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Aadya-Garg/_leetcodes/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0198-house-robber](https://github.com/Aadya-Garg/_leetcodes/tree/master/0198-house-robber) |
 | [0338-counting-bits](https://github.com/Aadya-Garg/_leetcodes/tree/master/0338-counting-bits) |
@@ -227,6 +228,7 @@
 ## Math
 |  |
 | ------- |
+| [0062-unique-paths](https://github.com/Aadya-Garg/_leetcodes/tree/master/0062-unique-paths) |
 | [0067-add-binary](https://github.com/Aadya-Garg/_leetcodes/tree/master/0067-add-binary) |
 | [1146-greatest-common-divisor-of-strings](https://github.com/Aadya-Garg/_leetcodes/tree/master/1146-greatest-common-divisor-of-strings) |
 | [1236-n-th-tribonacci-number](https://github.com/Aadya-Garg/_leetcodes/tree/master/1236-n-th-tribonacci-number) |
@@ -303,4 +305,8 @@
 |  |
 | ------- |
 | [0216-combination-sum-iii](https://github.com/Aadya-Garg/_leetcodes/tree/master/0216-combination-sum-iii) |
+## Combinatorics
+|  |
+| ------- |
+| [0062-unique-paths](https://github.com/Aadya-Garg/_leetcodes/tree/master/0062-unique-paths) |
 <!---LeetCode Topics End-->
